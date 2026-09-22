@@ -267,6 +267,8 @@ def per_graph_results(results: pd.DataFrame) -> pd.DataFrame:
         results.groupby(["Graph Size", "Graph Name", "Algorithm"], as_index=False)
         .agg(
             Success_Rate=("Success", "mean"),
+            Success_Count=("Success", "sum"),
+            Trial_Count=("Success", "size"),
             Initial_Mean_Fitness=("Initial Mean Fitness", "mean"),
             Initial_Best_Fitness=("Initial Best Fitness", "mean"),
             Initial_Cycles=("Initial Hamiltonian Cycles", "mean"),
@@ -342,6 +344,11 @@ def paired_rows(
     for n in sizes:
         selected = per_graph[per_graph["Graph Size"] == n]
         pivot = selected.pivot(index="Graph Name", columns="Algorithm", values="Success_Rate")
+        counts = selected.pivot(index="Graph Name", columns="Algorithm", values="Success_Count")
+        trials = selected.pivot(index="Graph Name", columns="Algorithm", values="Trial_Count")
+        if not (trials[first].eq(trials[second]).all() and trials[first].nunique() == 1):
+            raise ValueError("Count-based paired ranks require equal trial counts")
+        count_differences = (counts[first] - counts[second]).to_numpy(dtype=int)
         differences = 100.0 * (pivot[first] - pivot[second]).to_numpy(dtype=float)
         low, high = base.bootstrap_ci(
             differences, resamples, BOOTSTRAP_SEED + contrast_index * 1_000 + n
@@ -356,7 +363,7 @@ def paired_rows(
                 "Mean Difference (pp)": float(differences.mean()),
                 "CI95 Low (pp)": low,
                 "CI95 High (pp)": high,
-                "Wilcoxon p raw": base.paired_wilcoxon(differences),
+                "Wilcoxon p raw": base.paired_wilcoxon(count_differences),
             }
         )
     adjusted = base.holm_adjust([row["Wilcoxon p raw"] for row in rows])

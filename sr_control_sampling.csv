@@ -1,361 +1,361 @@
-Graph Name,Graph Size,graph_seed,sampler_rng_seed,num_shots,accepted_samples,acceptance_rate%,mean_pairs_theory,subgraph_size_distribution,code_version
-Random_n20_1,20,242,242,500,90,18.0,2.3704,"4:2, 5:13, 6:45, 7:8, 8:17, 9:2, 10:3",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n20_2,20,342,342,500,97,19.4,2.2731,"4:2, 5:25, 6:37, 7:8, 8:14, 9:5, 10:4, 11:2",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n20_3,20,442,442,500,82,16.4,2.3317,"4:2, 5:21, 6:35, 7:6, 8:11, 9:2, 10:2, 11:2, 14:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n20_4,20,542,542,500,77,15.4,2.2679,"4:1, 5:12, 6:35, 7:9, 8:15, 9:2, 10:3",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n15_21,15,2192,2192,500,67,13.4,2.378,"4:1, 5:21, 6:26, 7:10, 8:6, 9:3",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n15_22,15,2292,2292,500,55,11.0,2.2332,"4:2, 5:17, 6:22, 7:7, 8:5, 9:1, 10:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n15_23,15,2392,2392,500,81,16.2,2.7185,"4:4, 5:25, 6:34, 7:7, 8:9, 11:2",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n15_24,15,2492,2492,500,73,14.6,2.4882,"4:4, 5:19, 6:30, 7:12, 8:3, 9:3, 10:2",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n15_29,15,2992,2992,500,64,12.8,2.1268,"4:3, 5:14, 6:25, 7:14, 8:6, 9:1, 10:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n15_30,15,3092,3092,500,50,10.0,2.2213,"5:15, 6:24, 7:6, 8:3, 9:1, 10:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n15_31,15,3192,3192,500,71,14.2,2.4241,"4:5, 5:19, 6:27, 7:10, 8:7, 9:2, 10:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n15_32,15,3292,3292,500,74,14.8,2.3441,"4:2, 5:20, 6:33, 7:10, 8:7, 9:2",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n15_57,15,5792,5792,500,70,14.0,2.2733,"4:1, 5:24, 6:28, 7:9, 8:4, 9:2, 10:1, 11:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n15_58,15,5892,5892,500,58,11.6,2.1969,"4:2, 5:17, 6:28, 7:6, 8:4, 10:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n15_59,15,5992,5992,500,61,12.2,2.2249,"4:3, 5:16, 6:20, 7:7, 8:10, 9:1, 10:4",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n15_60,15,6092,6092,500,62,12.4,2.3289,"4:4, 5:12, 6:28, 7:11, 8:7",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n15_45,15,4592,4592,500,74,14.8,2.3046,"4:6, 5:20, 6:32, 7:6, 8:7, 9:1, 10:1, 11:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n15_46,15,4692,4692,500,60,12.0,2.4067,"4:1, 5:19, 6:27, 7:9, 8:1, 9:3",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n15_47,15,4792,4792,500,68,13.6,2.63,"4:4, 5:21, 6:21, 7:11, 8:6, 9:3, 11:2",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n15_48,15,4892,4892,500,62,12.4,2.1451,"3:1, 4:4, 5:16, 6:27, 7:4, 8:6, 9:4",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n15_5,15,592,592,500,54,10.8,2.091,"5:15, 6:23, 7:9, 8:7",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n15_6,15,692,692,500,74,14.8,2.544,"4:5, 5:18, 6:28, 7:12, 8:7, 9:3, 10:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n15_7,15,792,792,500,65,13.0,2.5211,"4:6, 5:17, 6:28, 7:5, 8:7, 9:1, 10:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n15_8,15,892,892,500,58,11.6,2.4117,"4:4, 5:18, 6:19, 7:5, 8:7, 9:3, 10:2",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n15_41,15,4192,4192,500,52,10.4,2.1687,"4:2, 5:15, 6:22, 7:6, 8:6, 9:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n15_42,15,4292,4292,500,75,15.0,2.2865,"4:1, 5:18, 6:35, 7:9, 8:7, 9:1, 10:3, 11:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n15_43,15,4392,4392,500,54,10.8,2.1722,"4:3, 5:18, 6:20, 7:5, 8:4, 9:2, 10:2",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n15_44,15,4492,4492,500,78,15.6,2.4417,"3:1, 4:4, 5:20, 6:33, 7:9, 8:6, 9:3, 10:1, 11:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n15_25,15,2592,2592,500,70,14.0,2.3879,"4:6, 5:18, 6:25, 7:9, 8:10, 9:1, 10:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n15_26,15,2692,2692,500,63,12.6,2.3138,"5:18, 6:25, 7:8, 8:8, 9:2, 10:1, 11:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n15_27,15,2792,2792,500,87,17.4,2.5651,"4:8, 5:19, 6:30, 7:18, 8:11, 9:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n15_28,15,2892,2892,500,59,11.8,2.2084,"4:2, 5:19, 6:25, 7:8, 8:4, 10:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n15_37,15,3792,3792,500,47,9.4,1.942,"4:1, 5:11, 6:18, 7:10, 8:6, 9:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n15_38,15,3892,3892,500,60,12.0,2.494,"4:5, 5:14, 6:20, 7:16, 8:2, 9:1, 10:2",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n15_39,15,3992,3992,500,69,13.8,2.3525,"4:2, 5:23, 6:21, 7:11, 8:6, 9:3, 10:3",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n15_40,15,4092,4092,500,67,13.4,2.3434,"4:6, 5:19, 6:25, 7:6, 8:7, 9:4",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n15_1,15,192,192,500,70,14.0,2.5425,"4:3, 5:18, 6:33, 7:4, 8:10, 9:1, 12:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n15_2,15,292,292,500,91,18.2,2.8441,"3:1, 4:3, 5:23, 6:35, 7:10, 8:11, 9:7, 10:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n15_3,15,392,392,500,63,12.6,2.3714,"4:2, 5:19, 6:26, 7:8, 8:6, 9:1, 10:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n15_4,15,492,492,500,57,11.4,2.4922,"4:5, 5:19, 6:23, 7:5, 8:3, 9:1, 11:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n15_53,15,5392,5392,500,59,11.8,2.3836,"4:2, 5:16, 6:27, 7:8, 8:3, 9:2, 10:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n15_54,15,5492,5492,500,51,10.2,2.0446,"4:4, 5:18, 6:20, 7:6, 8:3",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n15_55,15,5592,5592,500,62,12.4,2.6389,"4:5, 5:15, 6:27, 7:7, 8:5, 9:2, 10:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n15_56,15,5692,5692,500,65,13.0,2.2148,"4:6, 5:19, 6:24, 7:2, 8:11, 9:1, 10:2",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n20_5,20,642,642,500,88,17.6,2.3873,"4:1, 5:20, 6:41, 7:10, 8:12, 9:2, 11:1, 12:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n20_6,20,742,742,500,75,15.0,2.2365,"4:3, 5:15, 6:33, 7:7, 8:12, 9:1, 10:2, 12:2",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n20_7,20,842,842,500,92,18.4,2.4532,"4:4, 5:18, 6:33, 7:15, 8:12, 9:3, 10:6, 12:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n20_8,20,942,942,500,94,18.8,2.4629,"4:1, 5:20, 6:41, 7:18, 8:6, 9:6, 10:2",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n15_9,15,992,992,500,67,13.4,2.407,"4:3, 5:23, 6:24, 7:8, 8:7, 9:1, 10:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n15_10,15,1092,1092,500,53,10.6,2.3192,"4:2, 5:18, 6:18, 7:7, 8:6, 9:1, 11:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n15_11,15,1192,1192,500,68,13.6,2.8476,"4:4, 5:15, 6:33, 7:3, 8:10, 9:2, 10:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n15_12,15,1292,1292,500,71,14.2,2.2368,"4:3, 5:15, 6:25, 7:10, 8:11, 9:4, 10:1, 11:2",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n20_17,20,1842,1842,500,104,20.8,2.5297,"4:4, 5:21, 6:44, 7:15, 8:8, 9:6, 10:2, 11:3, 12:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n20_18,20,1942,1942,500,87,17.4,2.4201,"4:1, 5:19, 6:36, 7:10, 8:18, 10:2, 11:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n20_19,20,2042,2042,500,92,18.4,2.392,"4:2, 5:17, 6:44, 7:7, 8:17, 9:2, 10:3",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n20_20,20,2142,2142,500,89,17.8,2.6589,"4:1, 5:15, 6:40, 7:14, 8:10, 9:5, 10:2, 11:1, 12:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n15_33,15,3392,3392,500,56,11.2,2.3279,"4:3, 5:16, 6:31, 7:2, 8:4",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n15_34,15,3492,3492,500,89,17.8,2.7932,"3:1, 4:9, 5:27, 6:36, 7:8, 8:5, 9:1, 11:2",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n15_35,15,3592,3592,500,55,11.0,2.0994,"4:5, 5:15, 6:18, 7:9, 8:7, 9:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n15_36,15,3692,3692,500,47,9.4,2.0164,"4:1, 5:10, 6:25, 7:3, 8:7, 10:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n15_17,15,1792,1792,500,70,14.0,2.8611,"4:6, 5:23, 6:24, 7:7, 8:5, 9:5",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n15_18,15,1892,1892,500,108,21.6,3.3196,"4:5, 5:31, 6:43, 7:17, 8:6, 9:2, 10:4",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n15_19,15,1992,1992,500,57,11.4,2.1889,"4:1, 5:23, 6:22, 7:5, 8:5, 11:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n15_20,15,2092,2092,500,80,16.0,2.5343,"4:2, 5:16, 6:37, 7:14, 8:7, 9:3, 10:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n20_21,20,2242,2242,500,91,18.2,2.4143,"4:2, 5:18, 6:38, 7:15, 8:8, 9:2, 10:6, 11:2",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n20_22,20,2342,2342,500,96,19.2,2.3977,"4:7, 5:12, 6:42, 7:12, 8:10, 9:5, 10:7, 11:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n20_23,20,2442,2442,500,96,19.2,2.4335,"4:4, 5:12, 6:48, 7:12, 8:15, 9:3, 10:1, 14:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n20_24,20,2542,2542,500,87,17.4,2.4659,"4:2, 5:18, 6:35, 7:10, 8:10, 9:7, 10:5",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n15_13,15,1392,1392,500,72,14.4,2.409,"4:4, 5:23, 6:25, 7:13, 8:5, 9:1, 11:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n15_14,15,1492,1492,500,51,10.2,2.2334,"4:1, 5:16, 6:19, 7:10, 8:4, 9:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n15_15,15,1592,1592,500,66,13.2,2.5243,"4:2, 5:16, 6:31, 7:12, 8:5",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n15_16,15,1692,1692,500,62,12.4,2.1404,"4:4, 5:23, 6:23, 7:3, 8:8, 9:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n15_49,15,4992,4992,500,90,18.0,2.7249,"4:5, 5:21, 6:43, 7:10, 8:6, 9:4, 11:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n15_50,15,5092,5092,500,60,12.0,2.2113,"4:3, 5:23, 6:21, 7:6, 8:5, 9:1, 10:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n15_51,15,5192,5192,500,63,12.6,2.4577,"4:2, 5:20, 6:22, 7:11, 8:6, 9:1, 13:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n15_52,15,5292,5292,500,52,10.4,2.0675,"5:14, 6:24, 7:5, 8:6, 9:2, 10:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n20_13,20,1442,1442,500,102,20.4,2.6417,"4:2, 5:23, 6:46, 7:8, 8:7, 9:6, 10:7, 11:1, 13:1, 14:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n20_14,20,1542,1542,500,89,17.8,2.4845,"4:1, 5:16, 6:35, 7:12, 8:13, 9:7, 10:3, 11:1, 12:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n20_15,20,1642,1642,500,81,16.2,2.3241,"5:22, 6:30, 7:8, 8:9, 9:8, 10:1, 11:2, 13:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n20_16,20,1742,1742,500,65,13.0,2.4739,"4:2, 5:15, 6:31, 7:6, 8:8, 9:2, 10:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n20_9,20,1042,1042,500,96,19.2,2.6434,"4:3, 5:18, 6:37, 7:11, 8:13, 9:8, 10:6",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n20_10,20,1142,1142,500,84,16.8,2.3242,"5:26, 6:33, 7:7, 8:13, 9:2, 10:1, 11:2",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n20_11,20,1242,1242,500,93,18.6,2.3898,"4:3, 5:14, 6:48, 7:10, 8:12, 9:3, 10:1, 11:2",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n20_12,20,1342,1342,500,73,14.6,2.3117,"3:1, 4:2, 5:15, 6:29, 7:12, 8:7, 9:3, 10:2, 11:2",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n20_37,20,3842,3842,500,76,15.2,2.1888,"4:3, 5:21, 6:29, 7:12, 8:6, 9:2, 10:2, 11:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n20_38,20,3942,3942,500,84,16.8,2.4017,"4:2, 5:19, 6:29, 7:17, 8:5, 9:4, 10:5, 11:1, 12:1, 14:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n20_39,20,4042,4042,500,82,16.4,2.3207,"4:4, 5:17, 6:33, 7:8, 8:11, 9:3, 10:3, 11:2, 12:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n20_40,20,4142,4142,500,85,17.0,2.5848,"4:1, 5:12, 6:40, 7:15, 8:11, 9:3, 10:2, 14:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n20_33,20,3442,3442,500,91,18.2,2.3999,"4:3, 5:16, 6:41, 7:19, 8:7, 9:3, 10:2",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n20_34,20,3542,3542,500,76,15.2,2.3216,"4:1, 5:27, 6:28, 7:9, 8:6, 9:3, 10:1, 11:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n20_35,20,3642,3642,500,83,16.6,2.2605,"4:7, 5:13, 6:24, 7:16, 8:10, 9:8, 10:4, 11:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n20_36,20,3742,3742,500,75,15.0,2.4225,"4:3, 5:14, 6:27, 7:15, 8:9, 9:4, 10:2, 11:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n20_29,20,3042,3042,500,82,16.4,2.309,"4:2, 5:23, 6:38, 7:5, 8:8, 9:5, 10:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n20_30,20,3142,3142,500,66,13.2,2.3334,"4:2, 5:21, 6:24, 7:5, 8:9, 9:3, 10:2",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n20_31,20,3242,3242,500,98,19.6,2.5398,"5:22, 6:49, 7:12, 8:10, 9:3, 11:1, 12:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n20_32,20,3342,3342,500,73,14.6,2.2552,"5:15, 6:21, 7:12, 8:12, 9:5, 10:6, 12:2",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n20_25,20,2642,2642,500,75,15.0,2.2875,"5:17, 6:33, 7:8, 8:12, 9:3, 10:2",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n20_26,20,2742,2742,500,82,16.4,2.3504,"5:23, 6:29, 7:7, 8:13, 9:6, 10:1, 11:2, 12:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n20_27,20,2842,2842,500,88,17.6,2.6857,"5:13, 6:41, 7:7, 8:12, 9:9, 10:3, 11:3",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n20_28,20,2942,2942,500,93,18.6,2.4901,"4:2, 5:18, 6:45, 7:11, 8:12, 9:2, 10:1, 11:2",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n20_53,20,5442,5442,500,89,17.8,2.2138,"4:5, 5:20, 6:34, 7:10, 8:13, 9:4, 10:1, 11:2",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n20_54,20,5542,5542,500,79,15.8,2.2395,"4:3, 5:10, 6:36, 7:11, 8:14, 9:4, 10:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n20_55,20,5642,5642,500,99,19.8,2.4058,"4:5, 5:20, 6:37, 7:12, 8:19, 9:3, 10:2, 11:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n20_56,20,5742,5742,500,85,17.0,2.1526,"4:2, 5:21, 6:38, 7:8, 8:11, 9:4, 10:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n20_49,20,5042,5042,500,76,15.2,2.4378,"4:3, 5:16, 6:25, 7:17, 8:9, 9:4, 10:1, 11:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n20_50,20,5142,5142,500,72,14.4,2.2189,"4:2, 5:26, 6:24, 7:6, 8:8, 9:2, 10:2, 11:2",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n20_51,20,5242,5242,500,101,20.2,2.4411,"4:2, 5:20, 6:48, 7:11, 8:12, 9:1, 10:5, 11:1, 12:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n20_52,20,5342,5342,500,85,17.0,2.3549,"4:3, 5:15, 6:36, 7:10, 8:10, 9:6, 10:4, 12:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n20_57,20,5842,5842,500,78,15.6,2.2778,"3:2, 4:4, 5:14, 6:34, 7:8, 8:10, 9:5, 11:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n20_58,20,5942,5942,500,85,17.0,2.3277,"4:1, 5:16, 6:39, 7:9, 8:8, 9:8, 10:3, 11:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n20_59,20,6042,6042,500,93,18.6,2.2149,"4:1, 5:18, 6:44, 7:16, 8:8, 9:3, 10:1, 11:2",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n20_60,20,6142,6142,500,69,13.8,2.4316,"3:1, 4:1, 5:13, 6:26, 7:9, 8:9, 9:6, 10:3, 11:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n25_25,25,2692,2692,500,107,21.4,2.4196,"4:3, 5:17, 6:40, 7:14, 8:14, 9:7, 10:8, 11:2, 12:1, 14:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n25_26,25,2792,2792,500,115,23.0,2.6392,"4:1, 5:19, 6:41, 7:14, 8:19, 9:5, 10:12, 11:2, 12:1, 13:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n25_27,25,2892,2892,500,109,21.8,2.4858,"4:2, 5:19, 6:47, 7:10, 8:17, 9:4, 10:6, 11:3, 13:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n25_28,25,2992,2992,500,91,18.2,2.3106,"4:2, 5:24, 6:36, 7:6, 8:7, 9:7, 10:6, 11:2, 12:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n20_41,20,4242,4242,500,92,18.4,2.3855,"4:1, 5:27, 6:41, 7:8, 8:9, 9:3, 10:2, 11:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n20_42,20,4342,4342,500,76,15.2,2.5353,"4:3, 5:13, 6:28, 7:8, 8:16, 9:3, 10:4, 12:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n20_43,20,4442,4442,500,76,15.2,2.3619,"4:3, 5:12, 6:33, 7:7, 8:12, 9:5, 10:2, 11:2",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n20_44,20,4542,4542,500,82,16.4,2.4232,"4:3, 5:15, 6:36, 7:11, 8:9, 9:3, 10:4, 11:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n25_29,25,3092,3092,500,108,21.6,2.5454,"4:1, 5:26, 6:39, 7:9, 8:20, 9:6, 10:3, 11:4",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n25_30,25,3192,3192,500,122,24.4,2.5938,"4:1, 5:21, 6:45, 7:20, 8:21, 9:5, 10:5, 11:3, 12:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n25_31,25,3292,3292,500,94,18.8,2.335,"5:18, 6:41, 7:8, 8:18, 9:4, 10:2, 11:2, 12:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n25_32,25,3392,3392,500,121,24.2,2.4479,"4:2, 5:24, 6:51, 7:19, 8:16, 9:5, 10:3, 12:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n25_21,25,2292,2292,500,118,23.6,2.5539,"4:4, 5:22, 6:51, 7:16, 8:16, 9:4, 10:1, 11:3, 12:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n25_22,25,2392,2392,500,93,18.6,2.4405,"4:3, 5:19, 6:36, 7:10, 8:12, 9:5, 10:3, 11:3, 12:1, 15:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n25_23,25,2492,2492,500,94,18.8,2.5032,"4:1, 5:16, 6:42, 7:8, 8:8, 9:10, 10:6, 11:2, 12:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n25_24,25,2592,2592,500,98,19.6,2.3707,"3:1, 4:4, 5:12, 6:46, 7:11, 8:14, 9:3, 10:5, 11:1, 12:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n25_5,25,692,692,500,108,21.6,2.5641,"4:3, 5:19, 6:40, 7:14, 8:15, 9:8, 10:4, 11:1, 12:3, 14:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n25_6,25,792,792,500,112,22.4,2.5611,"4:3, 5:18, 6:46, 7:11, 8:16, 9:9, 10:5, 11:3, 12:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n25_7,25,892,892,500,109,21.8,2.6067,"5:18, 6:47, 7:15, 8:17, 9:5, 10:4, 11:2, 14:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n25_8,25,992,992,500,121,24.2,2.4749,"5:27, 6:45, 7:15, 8:16, 9:6, 10:9, 11:1, 12:1, 13:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n25_41,25,4292,4292,500,102,20.4,2.3315,"4:4, 5:20, 6:35, 7:8, 8:16, 9:6, 10:9, 11:4",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n25_42,25,4392,4392,500,116,23.2,2.4764,"4:1, 5:28, 6:42, 7:18, 8:13, 9:4, 10:7, 11:3",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n25_43,25,4492,4492,500,94,18.8,2.3922,"5:18, 6:37, 7:20, 8:7, 9:3, 10:5, 11:4",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n25_44,25,4592,4592,500,102,20.4,2.5064,"4:3, 5:15, 6:42, 7:12, 8:15, 9:6, 10:1, 11:4, 12:4",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n25_17,25,1892,1892,500,103,20.6,2.4993,"4:1, 5:17, 6:45, 7:11, 8:12, 9:5, 10:9, 11:1, 12:1, 13:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n25_18,25,1992,1992,500,91,18.2,2.2986,"5:21, 6:43, 7:7, 8:11, 9:2, 10:6, 11:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n25_19,25,2092,2092,500,115,23.0,2.4644,"5:25, 6:36, 7:16, 8:20, 9:6, 10:8, 11:3, 12:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n25_20,25,2192,2192,500,103,20.6,2.539,"4:2, 5:18, 6:53, 7:10, 8:10, 9:1, 10:5, 11:2, 12:1, 13:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n25_1,25,292,292,500,117,23.4,2.6647,"4:2, 5:15, 6:46, 7:20, 8:19, 9:4, 10:4, 11:4, 12:1, 14:2",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n25_2,25,392,392,500,110,22.0,2.4828,"4:2, 5:21, 6:45, 7:11, 8:17, 9:5, 10:9",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n25_3,25,492,492,500,114,22.8,2.6325,"4:3, 5:27, 6:40, 7:10, 8:17, 9:9, 10:4, 11:2, 12:1, 16:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n25_4,25,592,592,500,90,18.0,2.1794,"5:18, 6:41, 7:12, 8:11, 9:2, 10:1, 11:3, 14:1, 15:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n25_9,25,1092,1092,500,101,20.2,2.425,"5:23, 6:34, 7:21, 8:14, 9:7, 11:1, 13:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n25_10,25,1192,1192,500,118,23.6,2.635,"5:26, 6:56, 7:13, 8:11, 9:7, 10:3, 11:2",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n25_11,25,1292,1292,500,99,19.8,2.3619,"4:2, 5:26, 6:30, 7:8, 8:18, 9:5, 10:8, 11:2",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n25_12,25,1392,1392,500,86,17.2,2.4045,"4:2, 5:15, 6:38, 7:11, 8:11, 9:3, 10:4, 12:1, 13:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n20_45,20,4642,4642,500,102,20.4,2.6021,"4:6, 5:23, 6:40, 7:11, 8:9, 9:10, 10:2, 11:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n20_46,20,4742,4742,500,96,19.2,2.4212,"4:1, 5:23, 6:38, 7:14, 8:13, 9:2, 10:4, 11:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n20_47,20,4842,4842,500,75,15.0,2.6365,"3:1, 5:10, 6:32, 7:9, 8:16, 9:4, 10:1, 11:1, 12:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n20_48,20,4942,4942,500,84,16.8,2.3991,"4:2, 5:18, 6:29, 7:11, 8:15, 9:3, 10:3, 11:2, 12:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n25_49,25,5092,5092,500,83,16.6,2.2891,"4:1, 5:15, 6:33, 7:10, 8:13, 9:5, 10:6",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n25_50,25,5192,5192,500,92,18.4,2.2922,"4:2, 5:15, 6:39, 7:3, 8:18, 9:6, 10:6, 11:3",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n25_51,25,5292,5292,500,102,20.4,2.3468,"4:1, 5:20, 6:46, 7:8, 8:14, 9:7, 10:4, 11:2",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n25_52,25,5392,5392,500,108,21.6,2.4912,"4:3, 5:16, 6:39, 7:21, 8:15, 9:5, 10:7, 11:1, 12:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n25_37,25,3892,3892,500,81,16.2,2.5388,"4:1, 5:19, 6:38, 7:5, 8:10, 9:4, 10:2, 12:1, 13:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n25_38,25,3992,3992,500,99,19.8,2.4004,"4:1, 5:15, 6:47, 7:15, 8:10, 9:5, 10:4, 12:2",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n25_39,25,4092,4092,500,118,23.6,2.5242,"4:2, 5:21, 6:45, 7:16, 8:21, 9:5, 10:4, 11:1, 12:2, 13:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n25_40,25,4192,4192,500,100,20.0,2.4095,"4:3, 5:16, 6:34, 7:10, 8:23, 9:9, 10:1, 11:1, 12:1, 13:1, 17:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n25_13,25,1492,1492,500,92,18.4,2.3441,"4:1, 5:14, 6:36, 7:11, 8:16, 9:9, 10:3, 11:1, 14:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n25_14,25,1592,1592,500,100,20.0,2.4093,"4:2, 5:20, 6:38, 7:12, 8:15, 9:7, 10:2, 11:4",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n25_15,25,1692,1692,500,112,22.4,2.5891,"4:1, 5:22, 6:44, 7:11, 8:13, 9:13, 10:5, 11:2, 14:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n25_16,25,1792,1792,500,93,18.6,2.4981,"4:2, 5:15, 6:34, 7:11, 8:17, 9:4, 10:9, 11:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n25_33,25,3492,3492,500,99,19.8,2.4082,"4:1, 5:20, 6:40, 7:9, 8:13, 9:7, 10:3, 11:3, 12:2, 14:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n25_34,25,3592,3592,500,116,23.2,2.4036,"4:3, 5:16, 6:45, 7:14, 8:25, 9:3, 10:4, 11:3, 12:1, 13:1, 14:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n25_35,25,3692,3692,500,114,22.8,2.4364,"4:2, 5:20, 6:54, 7:5, 8:10, 9:11, 10:9, 11:1, 12:1, 13:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n25_36,25,3792,3792,500,98,19.6,2.4175,"5:10, 6:47, 7:14, 8:12, 9:6, 10:5, 11:1, 12:2, 14:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n25_45,25,4692,4692,500,102,20.4,2.4621,"5:14, 6:51, 7:9, 8:15, 9:6, 10:4, 11:2, 12:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n25_46,25,4792,4792,500,100,20.0,2.4979,"5:15, 6:40, 7:14, 8:14, 9:8, 10:3, 11:2, 12:4",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n25_47,25,4892,4892,500,103,20.6,2.304,"4:1, 5:16, 6:43, 7:15, 8:14, 9:5, 10:6, 11:3",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n25_48,25,4992,4992,500,95,19.0,2.495,"4:2, 5:13, 6:35, 7:7, 8:21, 9:8, 10:3, 11:3, 12:2, 14:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n25_53,25,5492,5492,500,94,18.8,2.3459,"4:1, 5:15, 6:43, 7:11, 8:14, 9:1, 10:6, 11:3",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n25_54,25,5592,5592,500,114,22.8,2.5175,"4:1, 5:18, 6:45, 7:16, 8:19, 9:7, 10:2, 11:5, 13:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n25_55,25,5692,5692,500,108,21.6,2.3623,"3:1, 4:2, 5:16, 6:49, 7:18, 8:10, 9:3, 10:4, 11:4, 12:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n25_56,25,5792,5792,500,99,19.8,2.3647,"4:2, 5:17, 6:45, 7:10, 8:14, 9:3, 10:5, 11:1, 12:1, 16:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n25_57,25,5892,5892,500,113,22.6,2.3944,"4:3, 5:18, 6:48, 7:7, 8:16, 9:10, 10:3, 11:5, 12:2, 13:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n25_58,25,5992,5992,500,98,19.6,2.3812,"5:13, 6:46, 7:18, 8:10, 9:8, 10:2, 12:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n25_59,25,6092,6092,500,107,21.4,2.5509,"3:1, 4:1, 5:22, 6:49, 7:12, 8:13, 9:4, 10:5",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n25_60,25,6192,6192,500,104,20.8,2.4882,"4:1, 5:16, 6:37, 7:17, 8:21, 9:2, 10:6, 11:3, 12:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n30_1,30,342,342,500,121,24.2,2.466,"4:4, 5:15, 6:44, 7:12, 8:28, 9:6, 10:6, 11:5, 14:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n30_2,30,442,442,500,121,24.2,2.5054,"4:1, 5:18, 6:50, 7:11, 8:23, 9:10, 10:6, 11:2",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n30_3,30,542,542,500,117,23.4,2.4053,"4:3, 5:20, 6:50, 7:9, 8:16, 9:4, 10:9, 11:3, 14:2, 15:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n30_4,30,642,642,500,133,26.6,2.5655,"4:5, 5:16, 6:52, 7:5, 8:31, 9:10, 10:7, 11:4, 12:2, 13:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n30_5,30,742,742,500,114,22.8,2.4884,"4:1, 5:19, 6:52, 7:13, 8:14, 9:6, 10:1, 11:3, 12:3, 13:1, 15:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n30_6,30,842,842,500,106,21.2,2.5624,"4:1, 5:12, 6:46, 7:13, 8:17, 9:8, 10:5, 11:2, 12:1, 13:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n30_7,30,942,942,500,116,23.2,2.3667,"4:1, 5:11, 6:51, 7:9, 8:25, 9:7, 10:7, 11:3, 12:1, 14:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n30_8,30,1042,1042,500,107,21.4,2.4446,"5:11, 6:53, 7:10, 8:16, 9:4, 10:9, 11:3, 12:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n30_33,30,3542,3542,500,123,24.6,2.5163,"4:2, 5:14, 6:52, 7:13, 8:20, 9:4, 10:7, 11:5, 12:3, 13:2, 14:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n30_34,30,3642,3642,500,111,22.2,2.4202,"5:13, 6:49, 7:9, 8:27, 9:4, 10:3, 11:4, 12:2",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n30_35,30,3742,3742,500,121,24.2,2.461,"5:19, 6:51, 7:12, 8:24, 9:5, 10:5, 11:1, 12:1, 13:1, 14:1, 17:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n30_36,30,3842,3842,500,109,21.8,2.43,"4:1, 5:12, 6:45, 7:6, 8:25, 9:6, 10:5, 11:5, 12:2, 13:1, 14:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n30_9,30,1142,1142,500,118,23.6,2.4688,"4:1, 5:16, 6:45, 7:12, 8:16, 9:7, 10:15, 11:3, 12:1, 13:2",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n30_10,30,1242,1242,500,125,25.0,2.5953,"4:3, 5:18, 6:42, 7:15, 8:29, 9:7, 10:6, 11:4, 13:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n30_11,30,1342,1342,500,94,18.8,2.3892,"4:1, 5:12, 6:42, 7:10, 8:12, 9:7, 10:6, 11:2, 13:1, 14:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n30_12,30,1442,1442,500,127,25.4,2.558,"5:25, 6:55, 7:14, 8:17, 9:3, 10:4, 11:6, 12:1, 14:1, 15:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n30_25,30,2742,2742,500,114,22.8,2.5115,"4:1, 5:18, 6:42, 7:15, 8:20, 9:10, 10:4, 11:3, 13:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n30_26,30,2842,2842,500,112,22.4,2.473,"4:1, 5:15, 6:43, 7:11, 8:24, 9:10, 10:5, 12:2, 14:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n30_27,30,2942,2942,500,99,19.8,2.5542,"5:20, 6:50, 7:10, 8:9, 9:1, 10:6, 12:2, 16:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n30_28,30,3042,3042,500,132,26.4,2.425,"4:2, 5:17, 6:63, 7:13, 8:21, 9:4, 10:5, 11:2, 12:4, 13:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n30_49,30,5142,5142,500,132,26.4,2.4296,"4:1, 5:21, 6:53, 7:17, 8:22, 9:5, 10:10, 13:3",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n30_50,30,5242,5242,500,120,24.0,2.5578,"5:12, 6:49, 7:16, 8:24, 9:4, 10:5, 11:6, 12:1, 13:3",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n30_51,30,5342,5342,500,114,22.8,2.4054,"4:1, 5:16, 6:47, 7:12, 8:17, 9:9, 10:7, 11:1, 12:1, 13:1, 15:1, 17:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n30_52,30,5442,5442,500,108,21.6,2.3819,"4:1, 5:15, 6:48, 7:17, 8:10, 9:6, 10:6, 11:2, 12:2, 14:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n30_13,30,1542,1542,500,127,25.4,2.4798,"4:2, 5:23, 6:47, 7:15, 8:17, 9:7, 10:6, 11:4, 12:4, 13:1, 14:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n30_14,30,1642,1642,500,118,23.6,2.5447,"5:18, 6:52, 7:7, 8:20, 9:7, 10:8, 11:5, 12:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n30_15,30,1742,1742,500,112,22.4,2.5522,"5:21, 6:48, 7:10, 8:16, 9:6, 10:7, 11:2, 12:1, 14:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n30_16,30,1842,1842,500,137,27.4,2.467,"4:5, 5:14, 6:54, 7:14, 8:27, 9:5, 10:5, 11:5, 12:6, 13:1, 14:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n30_45,30,4742,4742,500,135,27.0,2.5777,"5:20, 6:56, 7:19, 8:24, 9:6, 10:5, 11:3, 13:1, 16:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n30_46,30,4842,4842,500,113,22.6,2.4875,"4:1, 5:19, 6:41, 7:11, 8:20, 9:10, 10:5, 11:3, 12:2, 13:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n30_47,30,4942,4942,500,117,23.4,2.4606,"4:3, 5:11, 6:44, 7:10, 8:17, 9:10, 10:14, 11:3, 12:1, 13:2, 14:1, 15:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n30_48,30,5042,5042,500,111,22.2,2.6137,"4:2, 5:15, 6:42, 7:10, 8:21, 9:8, 10:5, 11:5, 12:2, 16:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n30_53,30,5542,5542,500,106,21.2,2.4309,"4:3, 5:10, 6:55, 7:9, 8:11, 9:8, 10:7, 11:2, 12:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n30_54,30,5642,5642,500,128,25.6,2.4778,"4:1, 5:18, 6:47, 7:14, 8:28, 9:7, 10:5, 11:3, 12:2, 13:2, 14:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n30_55,30,5742,5742,500,128,25.6,2.448,"5:24, 6:50, 7:14, 8:17, 9:6, 10:10, 11:6, 15:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n30_56,30,5842,5842,500,123,24.6,2.4303,"4:1, 5:21, 6:48, 7:15, 8:17, 9:8, 10:9, 11:1, 12:2, 13:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n30_37,30,3942,3942,500,119,23.8,2.5287,"4:2, 5:16, 6:53, 7:10, 8:17, 9:10, 10:4, 11:4, 12:1, 13:1, 15:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n30_38,30,4042,4042,500,128,25.6,2.39,"4:2, 5:17, 6:48, 7:15, 8:23, 9:6, 10:5, 11:5, 12:5, 13:2",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n30_39,30,4142,4142,500,95,19.0,2.4035,"4:1, 5:9, 6:46, 7:12, 8:13, 9:6, 10:6, 11:2",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n30_40,30,4242,4242,500,119,23.8,2.3866,"4:1, 5:14, 6:52, 7:13, 8:23, 9:2, 10:9, 11:1, 12:2, 13:1, 17:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n30_21,30,2342,2342,500,107,21.4,2.5228,"4:3, 5:10, 6:48, 7:9, 8:16, 9:9, 10:8, 11:1, 12:1, 13:2",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n30_22,30,2442,2442,500,123,24.6,2.4647,"4:2, 5:17, 6:48, 7:21, 8:14, 9:11, 10:4, 11:3, 12:3",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n30_23,30,2542,2542,500,117,23.4,2.4723,"4:1, 5:17, 6:45, 7:17, 8:22, 9:6, 10:4, 11:2, 12:3",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n30_24,30,2642,2642,500,124,24.8,2.3886,"5:22, 6:56, 7:15, 8:20, 9:5, 10:5, 12:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n30_29,30,3142,3142,500,115,23.0,2.4591,"4:2, 5:18, 6:47, 7:15, 8:19, 9:6, 10:4, 11:1, 12:2, 13:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n30_30,30,3242,3242,500,119,23.8,2.5331,"5:19, 6:48, 7:9, 8:24, 9:6, 10:8, 11:3, 12:1, 16:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n30_31,30,3342,3342,500,130,26.0,2.3836,"5:14, 6:53, 7:16, 8:28, 9:6, 10:11, 11:1, 12:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n30_32,30,3442,3442,500,127,25.4,2.4829,"5:9, 6:53, 7:19, 8:25, 9:6, 10:10, 11:1, 12:1, 13:2, 14:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n30_17,30,1942,1942,500,121,24.2,2.3966,"5:20, 6:57, 7:11, 8:20, 9:7, 10:4, 11:1, 14:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n30_18,30,2042,2042,500,118,23.6,2.5136,"4:1, 5:20, 6:51, 7:12, 8:18, 9:5, 10:4, 11:2, 12:3, 13:1, 14:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n30_19,30,2142,2142,500,125,25.0,2.4928,"4:1, 5:19, 6:51, 7:11, 8:14, 9:6, 10:9, 11:6, 12:5, 13:1, 14:1, 16:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n30_20,30,2242,2242,500,90,18.0,2.3612,"5:13, 6:32, 7:9, 8:17, 9:8, 10:6, 11:3, 12:1, 14:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n30_41,30,4342,4342,500,113,22.6,2.537,"4:3, 5:21, 6:47, 7:14, 8:20, 9:2, 10:3, 12:3",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n30_42,30,4442,4442,500,111,22.2,2.4708,"4:2, 5:19, 6:44, 7:13, 8:22, 9:2, 10:5, 11:1, 12:3",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n30_43,30,4542,4542,500,127,25.4,2.5591,"4:1, 5:12, 6:58, 7:11, 8:26, 9:5, 10:5, 11:4, 12:3, 14:1, 15:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n30_44,30,4642,4642,500,133,26.6,2.7119,"4:3, 5:20, 6:51, 7:13, 8:25, 9:10, 10:6, 11:2, 13:3",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n30_57,30,5942,5942,500,138,27.6,2.5517,"4:3, 5:14, 6:57, 7:16, 8:34, 9:6, 10:4, 11:3, 12:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n30_58,30,6042,6042,500,122,24.4,2.3024,"4:1, 5:18, 6:53, 7:12, 8:23, 9:5, 10:8, 12:1, 13:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n30_59,30,6142,6142,500,119,23.8,2.4814,"4:2, 5:20, 6:46, 7:5, 8:23, 9:10, 10:9, 11:2, 14:2",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n30_60,30,6242,6242,500,122,24.4,2.4636,"4:2, 5:10, 6:59, 7:14, 8:16, 9:11, 10:3, 11:4, 12:3",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n35_1,35,392,392,500,131,26.2,2.552,"5:17, 6:61, 7:9, 8:24, 9:6, 10:5, 11:4, 12:4, 13:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n35_2,35,492,492,500,122,24.4,2.5863,"4:2, 5:17, 6:54, 7:12, 8:17, 9:9, 10:7, 12:3, 14:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n35_3,35,592,592,500,110,22.0,2.334,"5:12, 6:42, 7:11, 8:22, 9:4, 10:12, 11:4, 12:1, 14:1, 16:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n35_4,35,692,692,500,136,27.2,2.5914,"5:13, 6:71, 7:11, 8:18, 9:7, 10:7, 11:4, 12:2, 13:2, 17:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n35_9,35,1192,1192,500,141,28.2,2.5475,"4:5, 5:13, 6:57, 7:11, 8:21, 9:11, 10:18, 11:1, 12:2, 14:1, 15:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n35_10,35,1292,1292,500,132,26.4,2.5105,"5:19, 6:56, 7:11, 8:22, 9:13, 10:4, 11:2, 12:3, 13:1, 14:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n35_11,35,1392,1392,500,100,20.0,2.3779,"5:14, 6:47, 7:7, 8:18, 9:5, 10:7, 11:2",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n35_12,35,1492,1492,500,107,21.4,2.3257,"4:1, 5:10, 6:41, 7:9, 8:23, 9:6, 10:8, 11:4, 12:3, 13:2",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n35_25,35,2792,2792,500,137,27.4,2.5761,"5:13, 6:46, 7:17, 8:32, 9:8, 10:15, 12:3, 13:1, 14:2",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n35_26,35,2892,2892,500,128,25.6,2.3897,"4:1, 5:13, 6:55, 7:11, 8:25, 9:7, 10:5, 11:7, 12:2, 13:1, 17:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n35_27,35,2992,2992,500,123,24.6,2.2816,"4:1, 5:15, 6:48, 7:11, 8:22, 9:8, 10:9, 11:2, 12:3, 13:1, 14:2, 15:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n35_28,35,3092,3092,500,127,25.4,2.3534,"4:1, 5:14, 6:60, 7:11, 8:20, 9:6, 10:6, 11:1, 12:5, 13:2, 15:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n35_29,35,3192,3192,500,122,24.4,2.5089,"4:2, 5:20, 6:52, 7:11, 8:23, 9:2, 10:8, 11:2, 12:2",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n35_30,35,3292,3292,500,108,21.6,2.4939,"4:2, 5:13, 6:49, 7:11, 8:15, 9:5, 10:7, 11:2, 12:2, 16:1, 18:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n35_31,35,3392,3392,500,132,26.4,2.5263,"4:2, 5:16, 6:59, 7:14, 8:24, 9:6, 10:1, 11:2, 12:4, 13:3, 14:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n35_32,35,3492,3492,500,129,25.8,2.5001,"4:2, 5:12, 6:56, 7:11, 8:20, 9:13, 10:8, 11:3, 12:2, 15:2",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n35_13,35,1592,1592,500,134,26.8,2.5401,"4:2, 5:9, 6:54, 7:15, 8:24, 9:12, 10:5, 11:3, 12:5, 13:2, 15:3",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n35_14,35,1692,1692,500,131,26.2,2.562,"4:2, 5:15, 6:57, 7:7, 8:21, 9:11, 10:9, 11:2, 12:2, 13:2, 14:1, 15:2",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n35_15,35,1792,1792,500,127,25.4,2.5022,"4:1, 5:18, 6:50, 7:8, 8:20, 9:8, 10:11, 11:5, 12:1, 13:4, 17:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n35_16,35,1892,1892,500,118,23.6,2.482,"3:1, 4:2, 5:9, 6:59, 7:13, 8:17, 9:4, 10:6, 11:2, 12:5",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n35_17,35,1992,1992,500,105,21.0,2.4907,"4:1, 5:12, 6:52, 7:13, 8:14, 9:3, 10:3, 11:4, 12:1, 14:2",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n35_18,35,2092,2092,500,142,28.4,2.5185,"5:18, 6:53, 7:16, 8:30, 9:8, 10:6, 11:5, 12:3, 13:1, 14:1, 21:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n35_19,35,2192,2192,500,128,25.6,2.4596,"4:1, 5:16, 6:41, 7:14, 8:24, 9:10, 10:10, 11:3, 12:6, 13:2, 15:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n35_20,35,2292,2292,500,130,26.0,2.7352,"4:1, 5:11, 6:56, 7:13, 8:21, 9:7, 10:7, 11:6, 12:2, 13:3, 14:3",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n35_5,35,792,792,500,134,26.8,2.6184,"4:1, 5:16, 6:63, 7:12, 8:22, 9:4, 10:4, 11:4, 12:2, 13:3, 15:2, 17:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n35_6,35,892,892,500,111,22.2,2.4906,"4:1, 5:16, 6:32, 7:13, 8:20, 9:8, 10:10, 11:3, 12:2, 13:5, 14:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n35_7,35,992,992,500,122,24.4,2.4363,"4:2, 5:11, 6:51, 7:10, 8:26, 9:8, 10:7, 11:1, 13:4, 15:1, 18:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n35_8,35,1092,1092,500,140,28.0,2.5048,"4:1, 5:20, 6:57, 7:13, 8:18, 9:4, 10:20, 11:2, 12:3, 13:1, 14:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n35_45,35,4792,4792,500,134,26.8,2.5658,"4:1, 5:9, 6:58, 7:15, 8:22, 9:9, 10:10, 11:3, 12:4, 13:1, 15:1, 16:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n35_46,35,4892,4892,500,134,26.8,2.4754,"5:15, 6:60, 7:16, 8:19, 9:7, 10:6, 11:6, 12:2, 13:1, 15:1, 16:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n35_47,35,4992,4992,500,125,25.0,2.4784,"4:1, 5:20, 6:45, 7:14, 8:20, 9:9, 10:12, 12:2, 14:1, 16:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n35_48,35,5092,5092,500,135,27.0,2.4925,"5:18, 6:37, 7:13, 8:33, 9:13, 10:14, 11:3, 12:1, 13:1, 14:1, 17:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n35_37,35,3992,3992,500,98,19.6,2.3583,"4:1, 5:10, 6:39, 7:7, 8:22, 9:7, 10:6, 12:3, 13:2, 16:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n35_38,35,4092,4092,500,133,26.6,2.5111,"4:1, 5:22, 6:52, 7:15, 8:20, 9:7, 10:5, 11:6, 12:2, 14:2, 16:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n35_39,35,4192,4192,500,123,24.6,2.4664,"4:3, 5:13, 6:50, 7:13, 8:18, 9:3, 10:12, 11:6, 12:2, 13:2, 15:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n35_40,35,4292,4292,500,111,22.2,2.4578,"5:18, 6:47, 7:7, 8:16, 9:6, 10:9, 11:2, 12:4, 13:1, 15:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n35_33,35,3592,3592,500,142,28.4,2.6022,"4:1, 5:18, 6:61, 7:11, 8:20, 9:11, 10:10, 11:6, 12:2, 13:1, 14:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n35_34,35,3692,3692,500,130,26.0,2.4717,"4:3, 5:16, 6:41, 7:12, 8:26, 9:8, 10:14, 11:7, 12:3",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n35_35,35,3792,3792,500,125,25.0,2.4898,"4:2, 5:14, 6:55, 7:9, 8:24, 9:8, 10:5, 11:4, 12:2, 14:2",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n35_36,35,3892,3892,500,131,26.2,2.5981,"5:17, 6:59, 7:15, 8:18, 9:6, 10:8, 11:2, 12:3, 13:2, 18:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n35_21,35,2392,2392,500,126,25.2,2.4682,"5:24, 6:49, 7:15, 8:20, 9:8, 10:5, 11:1, 12:2, 13:1, 14:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n35_22,35,2492,2492,500,123,24.6,2.4426,"4:1, 5:17, 6:45, 7:5, 8:29, 9:11, 10:10, 11:1, 12:1, 13:1, 14:2",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n35_23,35,2592,2592,500,132,26.4,2.424,"4:2, 5:13, 6:56, 7:11, 8:19, 9:14, 10:8, 11:4, 12:3, 13:1, 16:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n35_24,35,2692,2692,500,123,24.6,2.4965,"4:2, 5:17, 6:58, 7:12, 8:21, 9:2, 10:4, 11:4, 12:3",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n35_53,35,5592,5592,500,140,28.0,2.5372,"4:1, 5:15, 6:59, 7:8, 8:28, 9:10, 10:10, 11:4, 12:1, 13:1, 14:2, 16:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n35_54,35,5692,5692,500,125,25.0,2.5361,"4:1, 5:12, 6:50, 7:11, 8:20, 9:8, 10:12, 11:6, 12:4, 14:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n35_55,35,5792,5792,500,115,23.0,2.4343,"5:14, 6:45, 7:13, 8:21, 9:9, 10:7, 11:1, 12:1, 13:2, 14:1, 17:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n35_56,35,5892,5892,500,114,22.8,2.406,"4:1, 5:16, 6:46, 7:12, 8:25, 10:6, 11:2, 12:3, 13:1, 14:1, 15:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n35_41,35,4392,4392,500,121,24.2,2.5004,"4:1, 5:11, 6:47, 7:14, 8:19, 9:9, 10:9, 11:1, 12:6, 13:3, 16:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n35_42,35,4492,4492,500,122,24.4,2.4962,"5:16, 6:39, 7:15, 8:32, 9:5, 10:8, 11:3, 12:2, 14:1, 15:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n35_43,35,4592,4592,500,147,29.4,2.6256,"4:1, 5:15, 6:67, 7:16, 8:23, 9:5, 10:10, 11:1, 12:6, 13:1, 15:1, 16:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n35_44,35,4692,4692,500,143,28.6,2.5919,"4:2, 5:12, 6:58, 7:15, 8:24, 9:6, 10:16, 11:3, 12:3, 13:2, 14:2",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n35_57,35,5992,5992,500,119,23.8,2.3973,"4:1, 5:16, 6:51, 7:15, 8:15, 9:3, 10:8, 11:2, 12:3, 13:1, 15:1, 16:2, 17:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n35_58,35,6092,6092,500,124,24.8,2.4693,"5:18, 6:56, 7:6, 8:25, 9:9, 10:5, 11:3, 12:1, 14:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n35_59,35,6192,6192,500,130,26.0,2.5649,"4:3, 5:12, 6:57, 7:10, 8:25, 9:8, 10:7, 11:2, 12:1, 13:4, 14:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n35_60,35,6292,6292,500,122,24.4,2.4994,"4:3, 5:10, 6:45, 7:12, 8:23, 9:9, 10:6, 11:6, 12:5, 13:1, 14:2",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n40_5,40,842,842,500,136,27.2,2.4959,"4:1, 5:10, 6:69, 7:12, 8:24, 9:3, 10:11, 11:4, 12:1, 15:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n40_6,40,942,942,500,136,27.2,2.4963,"5:11, 6:62, 7:6, 8:25, 9:9, 10:12, 11:3, 12:4, 13:1, 14:1, 15:1, 16:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n40_7,40,1042,1042,500,129,25.8,2.5034,"4:1, 5:7, 6:63, 7:11, 8:24, 9:6, 10:6, 11:3, 12:5, 13:1, 16:2",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n40_8,40,1142,1142,500,117,23.4,2.4699,"5:18, 6:48, 7:4, 8:22, 9:6, 10:9, 11:2, 12:5, 13:1, 14:1, 18:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n40_1,40,442,442,500,160,32.0,2.4907,"4:1, 5:20, 6:57, 7:19, 8:24, 9:15, 10:11, 11:4, 12:5, 13:2, 15:1, 16:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n40_2,40,542,542,500,121,24.2,2.3741,"5:16, 6:53, 7:4, 8:21, 9:6, 10:12, 11:3, 12:2, 13:1, 14:2, 16:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n40_3,40,642,642,500,118,23.6,2.5929,"5:9, 6:50, 7:7, 8:25, 9:7, 10:12, 11:1, 12:4, 13:3",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n40_4,40,742,742,500,138,27.6,2.6018,"4:3, 5:6, 6:53, 7:19, 8:24, 9:5, 10:16, 11:3, 12:3, 13:1, 14:4, 15:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n40_9,40,1242,1242,500,151,30.2,2.5746,"4:3, 5:21, 6:43, 7:16, 8:37, 9:4, 10:10, 11:7, 12:5, 13:3, 14:1, 16:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n40_10,40,1342,1342,500,138,27.6,2.4936,"4:2, 5:17, 6:46, 7:13, 8:19, 9:12, 10:16, 11:5, 12:2, 13:3, 14:2, 16:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n40_11,40,1442,1442,500,142,28.4,2.4468,"5:12, 6:59, 7:12, 8:33, 9:7, 10:7, 11:2, 12:5, 13:2, 14:2, 16:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n40_12,40,1542,1542,500,136,27.2,2.4928,"5:17, 6:50, 7:21, 8:23, 9:10, 10:5, 11:2, 12:3, 13:4, 14:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n35_49,35,5192,5192,500,120,24.0,2.4203,"4:1, 5:19, 6:42, 7:8, 8:23, 9:3, 10:14, 11:4, 12:3, 13:2, 15:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n35_50,35,5292,5292,500,113,22.6,2.4727,"4:2, 5:16, 6:48, 7:10, 8:14, 9:7, 10:11, 11:3, 12:2",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n35_51,35,5392,5392,500,123,24.6,2.5591,"4:1, 5:6, 6:63, 7:13, 8:18, 9:6, 10:7, 11:5, 12:3, 13:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n35_52,35,5492,5492,500,108,21.6,2.2813,"5:10, 6:44, 7:10, 8:20, 9:9, 10:11, 12:2, 13:1, 14:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n40_21,40,2442,2442,500,133,26.6,2.4936,"5:13, 6:64, 7:7, 8:25, 9:9, 10:9, 11:2, 12:3, 14:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n40_22,40,2542,2542,500,146,29.2,2.5279,"5:15, 6:56, 7:15, 8:29, 9:7, 10:12, 11:5, 12:3, 14:1, 15:2, 16:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n40_23,40,2642,2642,500,138,27.6,2.4974,"4:2, 5:17, 6:58, 7:15, 8:24, 9:9, 10:4, 11:3, 12:2, 13:2, 14:1, 15:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n40_24,40,2742,2742,500,148,29.6,2.5545,"5:11, 6:71, 7:15, 8:28, 9:3, 10:8, 11:3, 12:5, 13:2, 14:2",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n40_13,40,1642,1642,500,143,28.6,2.5581,"4:1, 5:14, 6:69, 7:9, 8:27, 9:5, 10:4, 11:4, 12:2, 13:6, 16:1, 17:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n40_14,40,1742,1742,500,131,26.2,2.4265,"5:12, 6:55, 7:14, 8:24, 9:5, 10:11, 11:3, 12:5, 13:1, 15:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n40_15,40,1842,1842,500,150,30.0,2.5168,"5:14, 6:71, 7:13, 8:28, 9:10, 10:10, 11:2, 14:2",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n40_16,40,1942,1942,500,144,28.8,2.5394,"5:11, 6:60, 7:21, 8:30, 9:6, 10:8, 11:5, 13:1, 14:1, 17:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n40_33,40,3642,3642,500,144,28.8,2.4954,"4:1, 5:17, 6:65, 7:18, 8:22, 9:5, 10:7, 11:1, 12:5, 13:2, 14:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n40_34,40,3742,3742,500,125,25.0,2.5323,"5:14, 6:36, 7:18, 8:35, 9:6, 10:8, 11:4, 12:1, 14:1, 15:1, 19:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n40_35,40,3842,3842,500,142,28.4,2.5287,"5:11, 6:63, 7:9, 8:26, 9:9, 10:16, 11:3, 12:2, 14:2, 16:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n40_36,40,3942,3942,500,126,25.2,2.5415,"5:12, 6:55, 7:10, 8:26, 9:7, 10:8, 11:2, 12:5, 13:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n40_37,40,4042,4042,500,130,26.0,2.4537,"5:13, 6:55, 7:15, 8:19, 9:12, 10:9, 11:1, 12:2, 13:3, 14:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n40_38,40,4142,4142,500,135,27.0,2.4588,"4:1, 5:19, 6:57, 7:10, 8:19, 9:6, 10:13, 11:2, 12:2, 13:4, 14:1, 15:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n40_39,40,4242,4242,500,123,24.6,2.5333,"4:1, 5:11, 6:54, 7:9, 8:23, 9:6, 10:10, 12:4, 13:2, 14:1, 15:2",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n40_40,40,4342,4342,500,133,26.6,2.6028,"4:2, 5:9, 6:56, 7:14, 8:33, 9:3, 10:8, 11:2, 12:4, 14:1, 15:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n40_41,40,4442,4442,500,123,24.6,2.524,"5:10, 6:58, 7:11, 8:22, 9:7, 10:6, 11:3, 12:4, 13:1, 14:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n40_42,40,4542,4542,500,137,27.4,2.5496,"4:1, 5:17, 6:55, 7:14, 8:19, 9:8, 10:15, 11:2, 13:1, 14:3, 16:1, 17:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n40_43,40,4642,4642,500,150,30.0,2.5028,"4:2, 5:14, 6:62, 7:14, 8:29, 9:14, 10:8, 11:3, 12:3, 13:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n40_44,40,4742,4742,500,152,30.4,2.5106,"4:1, 5:13, 6:63, 7:9, 8:36, 9:6, 10:11, 11:6, 12:4, 15:2, 16:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n40_49,40,5242,5242,500,143,28.6,2.4899,"5:11, 6:59, 7:11, 8:30, 9:12, 10:11, 11:3, 12:2, 13:2, 14:1, 16:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n40_50,40,5342,5342,500,139,27.8,2.3889,"4:3, 5:13, 6:59, 7:13, 8:22, 9:6, 10:13, 11:2, 12:3, 13:1, 15:3, 16:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n40_51,40,5442,5442,500,132,26.4,2.4367,"4:1, 5:11, 6:58, 7:10, 8:28, 9:7, 10:5, 11:4, 12:1, 13:3, 14:2, 15:1, 16:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n40_52,40,5542,5542,500,135,27.0,2.4501,"5:17, 6:61, 7:7, 8:29, 9:4, 10:10, 11:5, 12:1, 15:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n40_17,40,2042,2042,500,145,29.0,2.5001,"5:14, 6:56, 7:17, 8:30, 9:6, 10:12, 11:4, 12:3, 13:2, 15:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n40_18,40,2142,2142,500,125,25.0,2.4452,"4:3, 5:16, 6:40, 7:15, 8:27, 9:7, 10:6, 11:4, 12:4, 13:3",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n40_19,40,2242,2242,500,123,24.6,2.4524,"5:12, 6:47, 7:10, 8:26, 9:6, 10:11, 11:4, 12:5, 13:2",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n40_20,40,2342,2342,500,157,31.4,2.638,"5:22, 6:56, 7:16, 8:31, 9:12, 10:9, 11:2, 12:3, 13:2, 14:2, 15:2",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n40_53,40,5642,5642,500,131,26.2,2.4511,"4:1, 5:10, 6:57, 7:12, 8:20, 9:9, 10:7, 11:8, 12:3, 14:1, 15:3",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n40_54,40,5742,5742,500,114,22.8,2.4179,"5:8, 6:47, 7:6, 8:21, 9:7, 10:9, 11:7, 12:6, 14:2, 15:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n40_55,40,5842,5842,500,136,27.2,2.4723,"5:17, 6:48, 7:16, 8:19, 9:11, 10:14, 11:6, 12:3, 13:1, 14:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n40_56,40,5942,5942,500,137,27.4,2.5933,"5:18, 6:53, 7:16, 8:30, 9:4, 10:8, 11:4, 12:2, 13:2",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n40_45,40,4842,4842,500,131,26.2,2.4537,"4:2, 5:7, 6:64, 7:9, 8:19, 9:7, 10:8, 11:6, 12:5, 13:3, 14:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n40_46,40,4942,4942,500,133,26.6,2.4055,"5:17, 6:59, 7:12, 8:21, 9:9, 10:5, 11:2, 12:3, 13:2, 14:2, 16:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n40_47,40,5042,5042,500,138,27.6,2.6091,"4:1, 5:18, 6:50, 7:11, 8:29, 9:9, 10:11, 11:6, 12:3",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n40_48,40,5142,5142,500,133,26.6,2.4967,"5:8, 6:42, 7:15, 8:27, 9:7, 10:15, 11:7, 12:4, 13:1, 14:3, 15:2, 16:2",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n40_57,40,6042,6042,500,124,24.8,2.5385,"5:12, 6:63, 7:6, 8:21, 9:6, 10:7, 11:5, 12:1, 13:2, 14:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n40_58,40,6142,6142,500,121,24.2,2.4062,"5:13, 6:43, 7:9, 8:24, 9:6, 10:15, 11:1, 12:5, 13:3, 14:1, 16:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n40_59,40,6242,6242,500,134,26.8,2.5436,"5:11, 6:56, 7:13, 8:23, 9:7, 10:12, 11:6, 12:2, 13:4",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n40_60,40,6342,6342,500,130,26.0,2.4697,"4:1, 5:5, 6:54, 7:11, 8:28, 9:7, 10:9, 11:6, 12:7, 14:1, 15:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n40_25,40,2842,2842,500,129,25.8,2.4619,"4:1, 5:16, 6:51, 7:16, 8:15, 9:4, 10:14, 12:5, 13:3, 14:2, 15:1, 18:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n40_26,40,2942,2942,500,131,26.2,2.4842,"4:1, 5:21, 6:52, 7:11, 8:22, 9:10, 10:10, 12:2, 13:1, 17:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n40_27,40,3042,3042,500,154,30.8,2.4906,"5:20, 6:61, 7:16, 8:31, 9:6, 10:8, 11:4, 12:5, 13:1, 14:1, 16:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n40_28,40,3142,3142,500,120,24.0,2.4214,"4:4, 5:13, 6:50, 7:9, 8:17, 9:8, 10:13, 11:1, 12:2, 13:1, 16:1, 18:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n40_29,40,3242,3242,500,142,28.4,2.5555,"5:20, 6:55, 7:14, 8:21, 9:10, 10:11, 11:5, 12:4, 14:1, 15:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n40_30,40,3342,3342,500,115,23.0,2.4797,"5:5, 6:51, 7:9, 8:28, 9:6, 10:6, 11:5, 12:3, 15:1, 16:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n40_31,40,3442,3442,500,139,27.8,2.5288,"4:2, 5:12, 6:50, 7:16, 8:26, 9:4, 10:16, 11:1, 12:10, 13:1, 14:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
-Random_n40_32,40,3542,3542,500,128,25.6,2.4863,"5:13, 6:52, 7:14, 8:24, 9:7, 10:12, 11:4, 12:1, 13:1",22.py @ 2026-09-14 + source_resolved.py (source-resolved control)
+Graph Name,Graph Size,graph_seed,sampler_rng_seed,num_shots,accepted_samples,acceptance_rate%,mean_pairs_theory,code_version
+Random_n15_1,15,192,192,500,70,14.0,2.5425039001117313,replay_benchmark.py; hashes in replay/manifest.json
+Random_n15_2,15,292,292,500,91,18.2,2.8440535562485647,replay_benchmark.py; hashes in replay/manifest.json
+Random_n15_3,15,392,392,500,63,12.6,2.371372564072748,replay_benchmark.py; hashes in replay/manifest.json
+Random_n15_4,15,492,492,500,57,11.4,2.492241975387976,replay_benchmark.py; hashes in replay/manifest.json
+Random_n15_5,15,592,592,500,54,10.8,2.0910128247827466,replay_benchmark.py; hashes in replay/manifest.json
+Random_n15_6,15,692,692,500,74,14.8,2.544026412004673,replay_benchmark.py; hashes in replay/manifest.json
+Random_n15_7,15,792,792,500,65,13.0,2.5210708067406076,replay_benchmark.py; hashes in replay/manifest.json
+Random_n15_8,15,892,892,500,58,11.6,2.4116857061172556,replay_benchmark.py; hashes in replay/manifest.json
+Random_n15_9,15,992,992,500,67,13.4,2.407031238981385,replay_benchmark.py; hashes in replay/manifest.json
+Random_n15_10,15,1092,1092,500,53,10.6,2.319186240528792,replay_benchmark.py; hashes in replay/manifest.json
+Random_n15_11,15,1192,1192,500,68,13.6,2.8476131890272893,replay_benchmark.py; hashes in replay/manifest.json
+Random_n15_12,15,1292,1292,500,71,14.2,2.236752616675089,replay_benchmark.py; hashes in replay/manifest.json
+Random_n15_13,15,1392,1392,500,72,14.4,2.409031262180168,replay_benchmark.py; hashes in replay/manifest.json
+Random_n15_14,15,1492,1492,500,51,10.2,2.233359617376347,replay_benchmark.py; hashes in replay/manifest.json
+Random_n15_15,15,1592,1592,500,66,13.2,2.524323074304793,replay_benchmark.py; hashes in replay/manifest.json
+Random_n15_16,15,1692,1692,500,62,12.4,2.1404306737415957,replay_benchmark.py; hashes in replay/manifest.json
+Random_n15_17,15,1792,1792,500,70,14.0,2.861121267952815,replay_benchmark.py; hashes in replay/manifest.json
+Random_n15_18,15,1892,1892,500,108,21.6,3.3196290049164694,replay_benchmark.py; hashes in replay/manifest.json
+Random_n15_19,15,1992,1992,500,57,11.4,2.1888683343941455,replay_benchmark.py; hashes in replay/manifest.json
+Random_n15_20,15,2092,2092,500,80,16.0,2.534342589226638,replay_benchmark.py; hashes in replay/manifest.json
+Random_n15_21,15,2192,2192,500,67,13.4,2.3779847977405932,replay_benchmark.py; hashes in replay/manifest.json
+Random_n15_22,15,2292,2292,500,55,11.0,2.2332244490932096,replay_benchmark.py; hashes in replay/manifest.json
+Random_n15_23,15,2392,2392,500,81,16.2,2.718453881901579,replay_benchmark.py; hashes in replay/manifest.json
+Random_n15_24,15,2492,2492,500,73,14.6,2.4881940369171294,replay_benchmark.py; hashes in replay/manifest.json
+Random_n15_25,15,2592,2592,500,70,14.0,2.387853054387792,replay_benchmark.py; hashes in replay/manifest.json
+Random_n15_26,15,2692,2692,500,63,12.6,2.3137945765346664,replay_benchmark.py; hashes in replay/manifest.json
+Random_n15_27,15,2792,2792,500,87,17.4,2.5650843258609055,replay_benchmark.py; hashes in replay/manifest.json
+Random_n15_28,15,2892,2892,500,59,11.8,2.208429580273327,replay_benchmark.py; hashes in replay/manifest.json
+Random_n15_29,15,2992,2992,500,64,12.8,2.126834470583427,replay_benchmark.py; hashes in replay/manifest.json
+Random_n15_30,15,3092,3092,500,50,10.0,2.221339434906806,replay_benchmark.py; hashes in replay/manifest.json
+Random_n15_31,15,3192,3192,500,71,14.2,2.424100630657012,replay_benchmark.py; hashes in replay/manifest.json
+Random_n15_32,15,3292,3292,500,74,14.8,2.344083368213201,replay_benchmark.py; hashes in replay/manifest.json
+Random_n15_33,15,3392,3392,500,56,11.2,2.327875130632606,replay_benchmark.py; hashes in replay/manifest.json
+Random_n15_34,15,3492,3492,500,89,17.8,2.7932249665910236,replay_benchmark.py; hashes in replay/manifest.json
+Random_n15_35,15,3592,3592,500,55,11.0,2.0993683594022725,replay_benchmark.py; hashes in replay/manifest.json
+Random_n15_36,15,3692,3692,500,47,9.4,2.016397004425284,replay_benchmark.py; hashes in replay/manifest.json
+Random_n15_37,15,3792,3792,500,47,9.4,1.9419799896751988,replay_benchmark.py; hashes in replay/manifest.json
+Random_n15_38,15,3892,3892,500,60,12.0,2.4940153849520525,replay_benchmark.py; hashes in replay/manifest.json
+Random_n15_39,15,3992,3992,500,69,13.8,2.352458855354741,replay_benchmark.py; hashes in replay/manifest.json
+Random_n15_40,15,4092,4092,500,67,13.4,2.3434106895960425,replay_benchmark.py; hashes in replay/manifest.json
+Random_n15_41,15,4192,4192,500,52,10.4,2.1687291639657116,replay_benchmark.py; hashes in replay/manifest.json
+Random_n15_42,15,4292,4292,500,75,15.0,2.286517074632109,replay_benchmark.py; hashes in replay/manifest.json
+Random_n15_43,15,4392,4392,500,54,10.8,2.1721699566885153,replay_benchmark.py; hashes in replay/manifest.json
+Random_n15_44,15,4492,4492,500,78,15.6,2.441703465393314,replay_benchmark.py; hashes in replay/manifest.json
+Random_n15_45,15,4592,4592,500,74,14.8,2.3045763574273197,replay_benchmark.py; hashes in replay/manifest.json
+Random_n15_46,15,4692,4692,500,60,12.0,2.406715655802071,replay_benchmark.py; hashes in replay/manifest.json
+Random_n15_47,15,4792,4792,500,68,13.6,2.629950672987332,replay_benchmark.py; hashes in replay/manifest.json
+Random_n15_48,15,4892,4892,500,62,12.4,2.145070632292066,replay_benchmark.py; hashes in replay/manifest.json
+Random_n15_49,15,4992,4992,500,90,18.0,2.7249262792767004,replay_benchmark.py; hashes in replay/manifest.json
+Random_n15_50,15,5092,5092,500,60,12.0,2.211286490510351,replay_benchmark.py; hashes in replay/manifest.json
+Random_n15_51,15,5192,5192,500,63,12.6,2.457703586222633,replay_benchmark.py; hashes in replay/manifest.json
+Random_n15_52,15,5292,5292,500,52,10.4,2.067493247775615,replay_benchmark.py; hashes in replay/manifest.json
+Random_n15_53,15,5392,5392,500,59,11.8,2.383552622213496,replay_benchmark.py; hashes in replay/manifest.json
+Random_n15_54,15,5492,5492,500,51,10.2,2.044553680010623,replay_benchmark.py; hashes in replay/manifest.json
+Random_n15_55,15,5592,5592,500,62,12.4,2.6388820651431972,replay_benchmark.py; hashes in replay/manifest.json
+Random_n15_56,15,5692,5692,500,65,13.0,2.21477691829457,replay_benchmark.py; hashes in replay/manifest.json
+Random_n15_57,15,5792,5792,500,70,14.0,2.2732526771589474,replay_benchmark.py; hashes in replay/manifest.json
+Random_n15_58,15,5892,5892,500,58,11.6,2.1969184565176287,replay_benchmark.py; hashes in replay/manifest.json
+Random_n15_59,15,5992,5992,500,61,12.2,2.2248855050726943,replay_benchmark.py; hashes in replay/manifest.json
+Random_n15_60,15,6092,6092,500,62,12.4,2.3289362979087613,replay_benchmark.py; hashes in replay/manifest.json
+Random_n20_1,20,242,242,500,90,18.0,2.3704046653448865,replay_benchmark.py; hashes in replay/manifest.json
+Random_n20_2,20,342,342,500,97,19.4,2.2730740299529675,replay_benchmark.py; hashes in replay/manifest.json
+Random_n20_3,20,442,442,500,82,16.4,2.3316968672648652,replay_benchmark.py; hashes in replay/manifest.json
+Random_n20_4,20,542,542,500,77,15.4,2.2679165148632325,replay_benchmark.py; hashes in replay/manifest.json
+Random_n20_5,20,642,642,500,88,17.6,2.387310121954184,replay_benchmark.py; hashes in replay/manifest.json
+Random_n20_6,20,742,742,500,75,15.0,2.2364840436705737,replay_benchmark.py; hashes in replay/manifest.json
+Random_n20_7,20,842,842,500,92,18.4,2.453242866602046,replay_benchmark.py; hashes in replay/manifest.json
+Random_n20_8,20,942,942,500,94,18.8,2.46288175549364,replay_benchmark.py; hashes in replay/manifest.json
+Random_n20_9,20,1042,1042,500,96,19.2,2.643402827051399,replay_benchmark.py; hashes in replay/manifest.json
+Random_n20_10,20,1142,1142,500,84,16.8,2.3242010370735304,replay_benchmark.py; hashes in replay/manifest.json
+Random_n20_11,20,1242,1242,500,93,18.6,2.3897971012186985,replay_benchmark.py; hashes in replay/manifest.json
+Random_n20_12,20,1342,1342,500,73,14.6,2.311730827430792,replay_benchmark.py; hashes in replay/manifest.json
+Random_n20_13,20,1442,1442,500,102,20.4,2.641691833104518,replay_benchmark.py; hashes in replay/manifest.json
+Random_n20_14,20,1542,1542,500,89,17.8,2.484503052903186,replay_benchmark.py; hashes in replay/manifest.json
+Random_n20_15,20,1642,1642,500,81,16.2,2.324083799530838,replay_benchmark.py; hashes in replay/manifest.json
+Random_n20_16,20,1742,1742,500,65,13.0,2.4738731855501856,replay_benchmark.py; hashes in replay/manifest.json
+Random_n20_17,20,1842,1842,500,104,20.8,2.5296846338581576,replay_benchmark.py; hashes in replay/manifest.json
+Random_n20_18,20,1942,1942,500,87,17.4,2.4200597419265915,replay_benchmark.py; hashes in replay/manifest.json
+Random_n20_19,20,2042,2042,500,92,18.4,2.391986316849194,replay_benchmark.py; hashes in replay/manifest.json
+Random_n20_20,20,2142,2142,500,89,17.8,2.6589179041196216,replay_benchmark.py; hashes in replay/manifest.json
+Random_n20_21,20,2242,2242,500,91,18.2,2.4143294735999046,replay_benchmark.py; hashes in replay/manifest.json
+Random_n20_22,20,2342,2342,500,96,19.2,2.3977342310075436,replay_benchmark.py; hashes in replay/manifest.json
+Random_n20_23,20,2442,2442,500,96,19.2,2.4335424031998305,replay_benchmark.py; hashes in replay/manifest.json
+Random_n20_24,20,2542,2542,500,87,17.4,2.4659006452174017,replay_benchmark.py; hashes in replay/manifest.json
+Random_n20_25,20,2642,2642,500,75,15.0,2.2875375729082914,replay_benchmark.py; hashes in replay/manifest.json
+Random_n20_26,20,2742,2742,500,82,16.4,2.350357656294501,replay_benchmark.py; hashes in replay/manifest.json
+Random_n20_27,20,2842,2842,500,88,17.6,2.6857364803737847,replay_benchmark.py; hashes in replay/manifest.json
+Random_n20_28,20,2942,2942,500,93,18.6,2.490079823655383,replay_benchmark.py; hashes in replay/manifest.json
+Random_n20_29,20,3042,3042,500,82,16.4,2.309011825648189,replay_benchmark.py; hashes in replay/manifest.json
+Random_n20_30,20,3142,3142,500,66,13.2,2.3333815591906464,replay_benchmark.py; hashes in replay/manifest.json
+Random_n20_31,20,3242,3242,500,98,19.6,2.539828574428451,replay_benchmark.py; hashes in replay/manifest.json
+Random_n20_32,20,3342,3342,500,73,14.6,2.2551513013326625,replay_benchmark.py; hashes in replay/manifest.json
+Random_n20_33,20,3442,3442,500,91,18.2,2.3999336135789786,replay_benchmark.py; hashes in replay/manifest.json
+Random_n20_34,20,3542,3542,500,76,15.2,2.3215985592033688,replay_benchmark.py; hashes in replay/manifest.json
+Random_n20_35,20,3642,3642,500,83,16.6,2.2604996363488428,replay_benchmark.py; hashes in replay/manifest.json
+Random_n20_36,20,3742,3742,500,75,15.0,2.422521482026,replay_benchmark.py; hashes in replay/manifest.json
+Random_n20_37,20,3842,3842,500,76,15.2,2.188783170089001,replay_benchmark.py; hashes in replay/manifest.json
+Random_n20_38,20,3942,3942,500,84,16.8,2.4017109271437938,replay_benchmark.py; hashes in replay/manifest.json
+Random_n20_39,20,4042,4042,500,82,16.4,2.3207128544766524,replay_benchmark.py; hashes in replay/manifest.json
+Random_n20_40,20,4142,4142,500,85,17.0,2.5848216251017093,replay_benchmark.py; hashes in replay/manifest.json
+Random_n20_41,20,4242,4242,500,92,18.4,2.3854631181495254,replay_benchmark.py; hashes in replay/manifest.json
+Random_n20_42,20,4342,4342,500,76,15.2,2.5353177583761384,replay_benchmark.py; hashes in replay/manifest.json
+Random_n20_43,20,4442,4442,500,76,15.2,2.361904537352126,replay_benchmark.py; hashes in replay/manifest.json
+Random_n20_44,20,4542,4542,500,82,16.4,2.4231527480820363,replay_benchmark.py; hashes in replay/manifest.json
+Random_n20_45,20,4642,4642,500,102,20.4,2.6021264326778026,replay_benchmark.py; hashes in replay/manifest.json
+Random_n20_46,20,4742,4742,500,96,19.2,2.4211517878100426,replay_benchmark.py; hashes in replay/manifest.json
+Random_n20_47,20,4842,4842,500,75,15.0,2.636500020984946,replay_benchmark.py; hashes in replay/manifest.json
+Random_n20_48,20,4942,4942,500,84,16.8,2.3990714471926577,replay_benchmark.py; hashes in replay/manifest.json
+Random_n20_49,20,5042,5042,500,76,15.2,2.4378215125345783,replay_benchmark.py; hashes in replay/manifest.json
+Random_n20_50,20,5142,5142,500,72,14.4,2.2189228112574555,replay_benchmark.py; hashes in replay/manifest.json
+Random_n20_51,20,5242,5242,500,101,20.2,2.441097377955125,replay_benchmark.py; hashes in replay/manifest.json
+Random_n20_52,20,5342,5342,500,85,17.0,2.3548648515058526,replay_benchmark.py; hashes in replay/manifest.json
+Random_n20_53,20,5442,5442,500,89,17.8,2.213775262508125,replay_benchmark.py; hashes in replay/manifest.json
+Random_n20_54,20,5542,5542,500,79,15.8,2.2394549446972145,replay_benchmark.py; hashes in replay/manifest.json
+Random_n20_55,20,5642,5642,500,99,19.8,2.405762913428523,replay_benchmark.py; hashes in replay/manifest.json
+Random_n20_56,20,5742,5742,500,85,17.0,2.1525915259888215,replay_benchmark.py; hashes in replay/manifest.json
+Random_n20_57,20,5842,5842,500,78,15.6,2.2777708850422247,replay_benchmark.py; hashes in replay/manifest.json
+Random_n20_58,20,5942,5942,500,85,17.0,2.32766045574232,replay_benchmark.py; hashes in replay/manifest.json
+Random_n20_59,20,6042,6042,500,93,18.6,2.214929627149968,replay_benchmark.py; hashes in replay/manifest.json
+Random_n20_60,20,6142,6142,500,69,13.8,2.4316009727465753,replay_benchmark.py; hashes in replay/manifest.json
+Random_n25_1,25,292,292,500,117,23.4,2.66470834945645,replay_benchmark.py; hashes in replay/manifest.json
+Random_n25_2,25,392,392,500,110,22.0,2.482832475397576,replay_benchmark.py; hashes in replay/manifest.json
+Random_n25_3,25,492,492,500,114,22.8,2.6325259938227106,replay_benchmark.py; hashes in replay/manifest.json
+Random_n25_4,25,592,592,500,90,18.0,2.179409959395771,replay_benchmark.py; hashes in replay/manifest.json
+Random_n25_5,25,692,692,500,108,21.6,2.564066408049191,replay_benchmark.py; hashes in replay/manifest.json
+Random_n25_6,25,792,792,500,112,22.4,2.561074807428322,replay_benchmark.py; hashes in replay/manifest.json
+Random_n25_7,25,892,892,500,109,21.8,2.6067074554920393,replay_benchmark.py; hashes in replay/manifest.json
+Random_n25_8,25,992,992,500,121,24.2,2.474905971584683,replay_benchmark.py; hashes in replay/manifest.json
+Random_n25_9,25,1092,1092,500,101,20.2,2.424969852232321,replay_benchmark.py; hashes in replay/manifest.json
+Random_n25_10,25,1192,1192,500,118,23.6,2.6349931129320505,replay_benchmark.py; hashes in replay/manifest.json
+Random_n25_11,25,1292,1292,500,99,19.8,2.3618539392946976,replay_benchmark.py; hashes in replay/manifest.json
+Random_n25_12,25,1392,1392,500,86,17.2,2.4045236630505755,replay_benchmark.py; hashes in replay/manifest.json
+Random_n25_13,25,1492,1492,500,92,18.4,2.344107998105866,replay_benchmark.py; hashes in replay/manifest.json
+Random_n25_14,25,1592,1592,500,100,20.0,2.4092521779053055,replay_benchmark.py; hashes in replay/manifest.json
+Random_n25_15,25,1692,1692,500,112,22.4,2.589143109617716,replay_benchmark.py; hashes in replay/manifest.json
+Random_n25_16,25,1792,1792,500,93,18.6,2.4980950576572596,replay_benchmark.py; hashes in replay/manifest.json
+Random_n25_17,25,1892,1892,500,103,20.6,2.499287444131601,replay_benchmark.py; hashes in replay/manifest.json
+Random_n25_18,25,1992,1992,500,91,18.2,2.2985947566061733,replay_benchmark.py; hashes in replay/manifest.json
+Random_n25_19,25,2092,2092,500,115,23.0,2.464359941128748,replay_benchmark.py; hashes in replay/manifest.json
+Random_n25_20,25,2192,2192,500,103,20.6,2.5390400031909564,replay_benchmark.py; hashes in replay/manifest.json
+Random_n25_21,25,2292,2292,500,118,23.6,2.5539185266086553,replay_benchmark.py; hashes in replay/manifest.json
+Random_n25_22,25,2392,2392,500,93,18.6,2.440549127420555,replay_benchmark.py; hashes in replay/manifest.json
+Random_n25_23,25,2492,2492,500,94,18.8,2.503205089080793,replay_benchmark.py; hashes in replay/manifest.json
+Random_n25_24,25,2592,2592,500,98,19.6,2.370666369959298,replay_benchmark.py; hashes in replay/manifest.json
+Random_n25_25,25,2692,2692,500,107,21.4,2.419638562288066,replay_benchmark.py; hashes in replay/manifest.json
+Random_n25_26,25,2792,2792,500,115,23.0,2.6392081026027205,replay_benchmark.py; hashes in replay/manifest.json
+Random_n25_27,25,2892,2892,500,109,21.8,2.485789861107003,replay_benchmark.py; hashes in replay/manifest.json
+Random_n25_28,25,2992,2992,500,91,18.2,2.3106010797751217,replay_benchmark.py; hashes in replay/manifest.json
+Random_n25_29,25,3092,3092,500,108,21.6,2.5454307168140855,replay_benchmark.py; hashes in replay/manifest.json
+Random_n25_30,25,3192,3192,500,122,24.4,2.593819876952092,replay_benchmark.py; hashes in replay/manifest.json
+Random_n25_31,25,3292,3292,500,94,18.8,2.334975086884668,replay_benchmark.py; hashes in replay/manifest.json
+Random_n25_32,25,3392,3392,500,121,24.2,2.4479479447601613,replay_benchmark.py; hashes in replay/manifest.json
+Random_n25_33,25,3492,3492,500,99,19.8,2.4081881155875546,replay_benchmark.py; hashes in replay/manifest.json
+Random_n25_34,25,3592,3592,500,116,23.2,2.4035546391214244,replay_benchmark.py; hashes in replay/manifest.json
+Random_n25_35,25,3692,3692,500,114,22.8,2.4363898674664526,replay_benchmark.py; hashes in replay/manifest.json
+Random_n25_36,25,3792,3792,500,98,19.6,2.41753964236557,replay_benchmark.py; hashes in replay/manifest.json
+Random_n25_37,25,3892,3892,500,81,16.2,2.5388005871056816,replay_benchmark.py; hashes in replay/manifest.json
+Random_n25_38,25,3992,3992,500,99,19.8,2.4003510819177913,replay_benchmark.py; hashes in replay/manifest.json
+Random_n25_39,25,4092,4092,500,118,23.6,2.5241604009650236,replay_benchmark.py; hashes in replay/manifest.json
+Random_n25_40,25,4192,4192,500,100,20.0,2.4095479150305983,replay_benchmark.py; hashes in replay/manifest.json
+Random_n25_41,25,4292,4292,500,102,20.4,2.3314957472101185,replay_benchmark.py; hashes in replay/manifest.json
+Random_n25_42,25,4392,4392,500,116,23.2,2.4764331818698615,replay_benchmark.py; hashes in replay/manifest.json
+Random_n25_43,25,4492,4492,500,94,18.8,2.3922272639939606,replay_benchmark.py; hashes in replay/manifest.json
+Random_n25_44,25,4592,4592,500,102,20.4,2.5063830092563584,replay_benchmark.py; hashes in replay/manifest.json
+Random_n25_45,25,4692,4692,500,102,20.4,2.4621477288498563,replay_benchmark.py; hashes in replay/manifest.json
+Random_n25_46,25,4792,4792,500,100,20.0,2.497887733287017,replay_benchmark.py; hashes in replay/manifest.json
+Random_n25_47,25,4892,4892,500,103,20.6,2.303972326718639,replay_benchmark.py; hashes in replay/manifest.json
+Random_n25_48,25,4992,4992,500,95,19.0,2.495040860085318,replay_benchmark.py; hashes in replay/manifest.json
+Random_n25_49,25,5092,5092,500,83,16.6,2.289107604045224,replay_benchmark.py; hashes in replay/manifest.json
+Random_n25_50,25,5192,5192,500,92,18.4,2.2922429332464604,replay_benchmark.py; hashes in replay/manifest.json
+Random_n25_51,25,5292,5292,500,102,20.4,2.346818912430091,replay_benchmark.py; hashes in replay/manifest.json
+Random_n25_52,25,5392,5392,500,108,21.6,2.491236742074963,replay_benchmark.py; hashes in replay/manifest.json
+Random_n25_53,25,5492,5492,500,94,18.8,2.345875223412585,replay_benchmark.py; hashes in replay/manifest.json
+Random_n25_54,25,5592,5592,500,114,22.8,2.5174952523725262,replay_benchmark.py; hashes in replay/manifest.json
+Random_n25_55,25,5692,5692,500,108,21.6,2.362295881685049,replay_benchmark.py; hashes in replay/manifest.json
+Random_n25_56,25,5792,5792,500,99,19.8,2.36468553357362,replay_benchmark.py; hashes in replay/manifest.json
+Random_n25_57,25,5892,5892,500,113,22.6,2.3944480210247234,replay_benchmark.py; hashes in replay/manifest.json
+Random_n25_58,25,5992,5992,500,98,19.6,2.3812318028079598,replay_benchmark.py; hashes in replay/manifest.json
+Random_n25_59,25,6092,6092,500,107,21.4,2.55090756994459,replay_benchmark.py; hashes in replay/manifest.json
+Random_n25_60,25,6192,6192,500,104,20.8,2.488241479005923,replay_benchmark.py; hashes in replay/manifest.json
+Random_n30_1,30,342,342,500,121,24.2,2.4659806787323038,replay_benchmark.py; hashes in replay/manifest.json
+Random_n30_2,30,442,442,500,121,24.2,2.5054094579346677,replay_benchmark.py; hashes in replay/manifest.json
+Random_n30_3,30,542,542,500,117,23.4,2.405346381658864,replay_benchmark.py; hashes in replay/manifest.json
+Random_n30_4,30,642,642,500,133,26.6,2.5654862552483104,replay_benchmark.py; hashes in replay/manifest.json
+Random_n30_5,30,742,742,500,114,22.8,2.4883881563784622,replay_benchmark.py; hashes in replay/manifest.json
+Random_n30_6,30,842,842,500,106,21.2,2.562359619367748,replay_benchmark.py; hashes in replay/manifest.json
+Random_n30_7,30,942,942,500,116,23.2,2.3666788067652145,replay_benchmark.py; hashes in replay/manifest.json
+Random_n30_8,30,1042,1042,500,107,21.4,2.444572801752371,replay_benchmark.py; hashes in replay/manifest.json
+Random_n30_9,30,1142,1142,500,118,23.6,2.4687751430163654,replay_benchmark.py; hashes in replay/manifest.json
+Random_n30_10,30,1242,1242,500,125,25.0,2.595341641491199,replay_benchmark.py; hashes in replay/manifest.json
+Random_n30_11,30,1342,1342,500,94,18.8,2.389192398078818,replay_benchmark.py; hashes in replay/manifest.json
+Random_n30_12,30,1442,1442,500,127,25.4,2.5580213479877747,replay_benchmark.py; hashes in replay/manifest.json
+Random_n30_13,30,1542,1542,500,127,25.4,2.47981677060091,replay_benchmark.py; hashes in replay/manifest.json
+Random_n30_14,30,1642,1642,500,118,23.6,2.544655850932814,replay_benchmark.py; hashes in replay/manifest.json
+Random_n30_15,30,1742,1742,500,112,22.4,2.552236515978884,replay_benchmark.py; hashes in replay/manifest.json
+Random_n30_16,30,1842,1842,500,137,27.4,2.4670085972542517,replay_benchmark.py; hashes in replay/manifest.json
+Random_n30_17,30,1942,1942,500,121,24.2,2.3965726111381573,replay_benchmark.py; hashes in replay/manifest.json
+Random_n30_18,30,2042,2042,500,118,23.6,2.5136478158234676,replay_benchmark.py; hashes in replay/manifest.json
+Random_n30_19,30,2142,2142,500,125,25.0,2.4928175204401457,replay_benchmark.py; hashes in replay/manifest.json
+Random_n30_20,30,2242,2242,500,90,18.0,2.3611610315451195,replay_benchmark.py; hashes in replay/manifest.json
+Random_n30_21,30,2342,2342,500,107,21.4,2.522843380140256,replay_benchmark.py; hashes in replay/manifest.json
+Random_n30_22,30,2442,2442,500,123,24.6,2.464672446251063,replay_benchmark.py; hashes in replay/manifest.json
+Random_n30_23,30,2542,2542,500,117,23.4,2.472347297247717,replay_benchmark.py; hashes in replay/manifest.json
+Random_n30_24,30,2642,2642,500,124,24.8,2.388615293990744,replay_benchmark.py; hashes in replay/manifest.json
+Random_n30_25,30,2742,2742,500,114,22.8,2.511473893080339,replay_benchmark.py; hashes in replay/manifest.json
+Random_n30_26,30,2842,2842,500,112,22.4,2.4729656287337134,replay_benchmark.py; hashes in replay/manifest.json
+Random_n30_27,30,2942,2942,500,99,19.8,2.554172509845723,replay_benchmark.py; hashes in replay/manifest.json
+Random_n30_28,30,3042,3042,500,132,26.4,2.4250267212386345,replay_benchmark.py; hashes in replay/manifest.json
+Random_n30_29,30,3142,3142,500,115,23.0,2.459118734309284,replay_benchmark.py; hashes in replay/manifest.json
+Random_n30_30,30,3242,3242,500,119,23.8,2.533128015777504,replay_benchmark.py; hashes in replay/manifest.json
+Random_n30_31,30,3342,3342,500,130,26.0,2.383590138954507,replay_benchmark.py; hashes in replay/manifest.json
+Random_n30_32,30,3442,3442,500,127,25.4,2.482864096117118,replay_benchmark.py; hashes in replay/manifest.json
+Random_n30_33,30,3542,3542,500,123,24.6,2.5162650830519455,replay_benchmark.py; hashes in replay/manifest.json
+Random_n30_34,30,3642,3642,500,111,22.2,2.4202368113548833,replay_benchmark.py; hashes in replay/manifest.json
+Random_n30_35,30,3742,3742,500,121,24.2,2.461041577983481,replay_benchmark.py; hashes in replay/manifest.json
+Random_n30_36,30,3842,3842,500,109,21.8,2.4299551634461776,replay_benchmark.py; hashes in replay/manifest.json
+Random_n30_37,30,3942,3942,500,119,23.8,2.5286909366478794,replay_benchmark.py; hashes in replay/manifest.json
+Random_n30_38,30,4042,4042,500,128,25.6,2.3899576969981684,replay_benchmark.py; hashes in replay/manifest.json
+Random_n30_39,30,4142,4142,500,95,19.0,2.4035068627348366,replay_benchmark.py; hashes in replay/manifest.json
+Random_n30_40,30,4242,4242,500,119,23.8,2.386643567544756,replay_benchmark.py; hashes in replay/manifest.json
+Random_n30_41,30,4342,4342,500,113,22.6,2.536961830767689,replay_benchmark.py; hashes in replay/manifest.json
+Random_n30_42,30,4442,4442,500,111,22.2,2.470828867015596,replay_benchmark.py; hashes in replay/manifest.json
+Random_n30_43,30,4542,4542,500,127,25.4,2.5591177063113464,replay_benchmark.py; hashes in replay/manifest.json
+Random_n30_44,30,4642,4642,500,133,26.6,2.7119365805522073,replay_benchmark.py; hashes in replay/manifest.json
+Random_n30_45,30,4742,4742,500,135,27.0,2.577706340833454,replay_benchmark.py; hashes in replay/manifest.json
+Random_n30_46,30,4842,4842,500,113,22.6,2.4874695212431317,replay_benchmark.py; hashes in replay/manifest.json
+Random_n30_47,30,4942,4942,500,117,23.4,2.460597815996603,replay_benchmark.py; hashes in replay/manifest.json
+Random_n30_48,30,5042,5042,500,111,22.2,2.6136962136383115,replay_benchmark.py; hashes in replay/manifest.json
+Random_n30_49,30,5142,5142,500,132,26.4,2.4296429337728167,replay_benchmark.py; hashes in replay/manifest.json
+Random_n30_50,30,5242,5242,500,120,24.0,2.557839953396666,replay_benchmark.py; hashes in replay/manifest.json
+Random_n30_51,30,5342,5342,500,114,22.8,2.4054222377460417,replay_benchmark.py; hashes in replay/manifest.json
+Random_n30_52,30,5442,5442,500,108,21.6,2.381851789346394,replay_benchmark.py; hashes in replay/manifest.json
+Random_n30_53,30,5542,5542,500,106,21.2,2.4309050617263472,replay_benchmark.py; hashes in replay/manifest.json
+Random_n30_54,30,5642,5642,500,128,25.6,2.4777832113230036,replay_benchmark.py; hashes in replay/manifest.json
+Random_n30_55,30,5742,5742,500,128,25.6,2.4480415230669825,replay_benchmark.py; hashes in replay/manifest.json
+Random_n30_56,30,5842,5842,500,123,24.6,2.430256330554658,replay_benchmark.py; hashes in replay/manifest.json
+Random_n30_57,30,5942,5942,500,138,27.6,2.551680569000014,replay_benchmark.py; hashes in replay/manifest.json
+Random_n30_58,30,6042,6042,500,122,24.4,2.302397834049567,replay_benchmark.py; hashes in replay/manifest.json
+Random_n30_59,30,6142,6142,500,119,23.8,2.481350223780206,replay_benchmark.py; hashes in replay/manifest.json
+Random_n30_60,30,6242,6242,500,122,24.4,2.463645596983326,replay_benchmark.py; hashes in replay/manifest.json
+Random_n35_1,35,392,392,500,131,26.2,2.5520498567576504,replay_benchmark.py; hashes in replay/manifest.json
+Random_n35_2,35,492,492,500,122,24.4,2.5862856799792717,replay_benchmark.py; hashes in replay/manifest.json
+Random_n35_3,35,592,592,500,110,22.0,2.3340227372451317,replay_benchmark.py; hashes in replay/manifest.json
+Random_n35_4,35,692,692,500,136,27.2,2.5914035487583154,replay_benchmark.py; hashes in replay/manifest.json
+Random_n35_5,35,792,792,500,134,26.8,2.6183562515045122,replay_benchmark.py; hashes in replay/manifest.json
+Random_n35_6,35,892,892,500,111,22.2,2.490591638574705,replay_benchmark.py; hashes in replay/manifest.json
+Random_n35_7,35,992,992,500,122,24.4,2.4362912426808507,replay_benchmark.py; hashes in replay/manifest.json
+Random_n35_8,35,1092,1092,500,140,28.0,2.5047888804182197,replay_benchmark.py; hashes in replay/manifest.json
+Random_n35_9,35,1192,1192,500,141,28.2,2.5474793249313796,replay_benchmark.py; hashes in replay/manifest.json
+Random_n35_10,35,1292,1292,500,132,26.4,2.5104820367817804,replay_benchmark.py; hashes in replay/manifest.json
+Random_n35_11,35,1392,1392,500,100,20.0,2.377907844984151,replay_benchmark.py; hashes in replay/manifest.json
+Random_n35_12,35,1492,1492,500,107,21.4,2.325693208793951,replay_benchmark.py; hashes in replay/manifest.json
+Random_n35_13,35,1592,1592,500,134,26.8,2.540085333641691,replay_benchmark.py; hashes in replay/manifest.json
+Random_n35_14,35,1692,1692,500,131,26.2,2.56196296825734,replay_benchmark.py; hashes in replay/manifest.json
+Random_n35_15,35,1792,1792,500,127,25.4,2.5022465150802904,replay_benchmark.py; hashes in replay/manifest.json
+Random_n35_16,35,1892,1892,500,118,23.6,2.4819604251426926,replay_benchmark.py; hashes in replay/manifest.json
+Random_n35_17,35,1992,1992,500,105,21.0,2.4907135483965868,replay_benchmark.py; hashes in replay/manifest.json
+Random_n35_18,35,2092,2092,500,142,28.4,2.518498974198974,replay_benchmark.py; hashes in replay/manifest.json
+Random_n35_19,35,2192,2192,500,128,25.6,2.459631939784744,replay_benchmark.py; hashes in replay/manifest.json
+Random_n35_20,35,2292,2292,500,130,26.0,2.735237445370696,replay_benchmark.py; hashes in replay/manifest.json
+Random_n35_21,35,2392,2392,500,126,25.2,2.4682180577494925,replay_benchmark.py; hashes in replay/manifest.json
+Random_n35_22,35,2492,2492,500,123,24.6,2.4426220295208623,replay_benchmark.py; hashes in replay/manifest.json
+Random_n35_23,35,2592,2592,500,132,26.4,2.4239987592693306,replay_benchmark.py; hashes in replay/manifest.json
+Random_n35_24,35,2692,2692,500,123,24.6,2.496473986114385,replay_benchmark.py; hashes in replay/manifest.json
+Random_n35_25,35,2792,2792,500,137,27.4,2.576126875797411,replay_benchmark.py; hashes in replay/manifest.json
+Random_n35_26,35,2892,2892,500,128,25.6,2.3896651755287643,replay_benchmark.py; hashes in replay/manifest.json
+Random_n35_27,35,2992,2992,500,123,24.6,2.281558057386672,replay_benchmark.py; hashes in replay/manifest.json
+Random_n35_28,35,3092,3092,500,127,25.4,2.353425957919536,replay_benchmark.py; hashes in replay/manifest.json
+Random_n35_29,35,3192,3192,500,122,24.4,2.508879834860672,replay_benchmark.py; hashes in replay/manifest.json
+Random_n35_30,35,3292,3292,500,108,21.6,2.4938669567359217,replay_benchmark.py; hashes in replay/manifest.json
+Random_n35_31,35,3392,3392,500,132,26.4,2.5262769795779754,replay_benchmark.py; hashes in replay/manifest.json
+Random_n35_32,35,3492,3492,500,129,25.8,2.500079677561795,replay_benchmark.py; hashes in replay/manifest.json
+Random_n35_33,35,3592,3592,500,142,28.4,2.602193648145175,replay_benchmark.py; hashes in replay/manifest.json
+Random_n35_34,35,3692,3692,500,130,26.0,2.471736272024829,replay_benchmark.py; hashes in replay/manifest.json
+Random_n35_35,35,3792,3792,500,125,25.0,2.489778194327979,replay_benchmark.py; hashes in replay/manifest.json
+Random_n35_36,35,3892,3892,500,131,26.2,2.598071630293087,replay_benchmark.py; hashes in replay/manifest.json
+Random_n35_37,35,3992,3992,500,98,19.6,2.3582559227187554,replay_benchmark.py; hashes in replay/manifest.json
+Random_n35_38,35,4092,4092,500,133,26.6,2.511083797235324,replay_benchmark.py; hashes in replay/manifest.json
+Random_n35_39,35,4192,4192,500,123,24.6,2.466403676331693,replay_benchmark.py; hashes in replay/manifest.json
+Random_n35_40,35,4292,4292,500,111,22.2,2.457785390704975,replay_benchmark.py; hashes in replay/manifest.json
+Random_n35_41,35,4392,4392,500,121,24.2,2.5004457070082036,replay_benchmark.py; hashes in replay/manifest.json
+Random_n35_42,35,4492,4492,500,122,24.4,2.496226465814143,replay_benchmark.py; hashes in replay/manifest.json
+Random_n35_43,35,4592,4592,500,147,29.4,2.6255561848347484,replay_benchmark.py; hashes in replay/manifest.json
+Random_n35_44,35,4692,4692,500,143,28.6,2.591920283827692,replay_benchmark.py; hashes in replay/manifest.json
+Random_n35_45,35,4792,4792,500,134,26.8,2.5657764960164346,replay_benchmark.py; hashes in replay/manifest.json
+Random_n35_46,35,4892,4892,500,134,26.8,2.475353728576631,replay_benchmark.py; hashes in replay/manifest.json
+Random_n35_47,35,4992,4992,500,125,25.0,2.4783714092707103,replay_benchmark.py; hashes in replay/manifest.json
+Random_n35_48,35,5092,5092,500,135,27.0,2.4925207366107833,replay_benchmark.py; hashes in replay/manifest.json
+Random_n35_49,35,5192,5192,500,120,24.0,2.4203216973727506,replay_benchmark.py; hashes in replay/manifest.json
+Random_n35_50,35,5292,5292,500,113,22.6,2.472655170045507,replay_benchmark.py; hashes in replay/manifest.json
+Random_n35_51,35,5392,5392,500,123,24.6,2.5591178229284846,replay_benchmark.py; hashes in replay/manifest.json
+Random_n35_52,35,5492,5492,500,108,21.6,2.2812872167369904,replay_benchmark.py; hashes in replay/manifest.json
+Random_n35_53,35,5592,5592,500,140,28.0,2.537238401776897,replay_benchmark.py; hashes in replay/manifest.json
+Random_n35_54,35,5692,5692,500,125,25.0,2.5361116540302246,replay_benchmark.py; hashes in replay/manifest.json
+Random_n35_55,35,5792,5792,500,115,23.0,2.4342932700052278,replay_benchmark.py; hashes in replay/manifest.json
+Random_n35_56,35,5892,5892,500,114,22.8,2.40604099150902,replay_benchmark.py; hashes in replay/manifest.json
+Random_n35_57,35,5992,5992,500,119,23.8,2.3973400887832494,replay_benchmark.py; hashes in replay/manifest.json
+Random_n35_58,35,6092,6092,500,124,24.8,2.4692779560692992,replay_benchmark.py; hashes in replay/manifest.json
+Random_n35_59,35,6192,6192,500,130,26.0,2.5648832839005657,replay_benchmark.py; hashes in replay/manifest.json
+Random_n35_60,35,6292,6292,500,122,24.4,2.4994336889533324,replay_benchmark.py; hashes in replay/manifest.json
+Random_n40_1,40,442,442,500,160,32.0,2.4907214299284535,replay_benchmark.py; hashes in replay/manifest.json
+Random_n40_2,40,542,542,500,121,24.2,2.374054843748679,replay_benchmark.py; hashes in replay/manifest.json
+Random_n40_3,40,642,642,500,118,23.6,2.592912636021901,replay_benchmark.py; hashes in replay/manifest.json
+Random_n40_4,40,742,742,500,138,27.6,2.6017959996192412,replay_benchmark.py; hashes in replay/manifest.json
+Random_n40_5,40,842,842,500,136,27.2,2.4959444470509657,replay_benchmark.py; hashes in replay/manifest.json
+Random_n40_6,40,942,942,500,136,27.2,2.4963472073951136,replay_benchmark.py; hashes in replay/manifest.json
+Random_n40_7,40,1042,1042,500,129,25.8,2.5034213931104596,replay_benchmark.py; hashes in replay/manifest.json
+Random_n40_8,40,1142,1142,500,117,23.4,2.469884291080228,replay_benchmark.py; hashes in replay/manifest.json
+Random_n40_9,40,1242,1242,500,151,30.2,2.5745957255838503,replay_benchmark.py; hashes in replay/manifest.json
+Random_n40_10,40,1342,1342,500,138,27.6,2.4936249669573916,replay_benchmark.py; hashes in replay/manifest.json
+Random_n40_11,40,1442,1442,500,142,28.4,2.4467987144095797,replay_benchmark.py; hashes in replay/manifest.json
+Random_n40_12,40,1542,1542,500,136,27.2,2.492830945345952,replay_benchmark.py; hashes in replay/manifest.json
+Random_n40_13,40,1642,1642,500,143,28.6,2.5580949707910268,replay_benchmark.py; hashes in replay/manifest.json
+Random_n40_14,40,1742,1742,500,131,26.2,2.4264921132838437,replay_benchmark.py; hashes in replay/manifest.json
+Random_n40_15,40,1842,1842,500,150,30.0,2.5167840866436797,replay_benchmark.py; hashes in replay/manifest.json
+Random_n40_16,40,1942,1942,500,144,28.8,2.539416084857362,replay_benchmark.py; hashes in replay/manifest.json
+Random_n40_17,40,2042,2042,500,145,29.0,2.500056009988027,replay_benchmark.py; hashes in replay/manifest.json
+Random_n40_18,40,2142,2142,500,125,25.0,2.4451738527790243,replay_benchmark.py; hashes in replay/manifest.json
+Random_n40_19,40,2242,2242,500,123,24.6,2.452418319216804,replay_benchmark.py; hashes in replay/manifest.json
+Random_n40_20,40,2342,2342,500,157,31.4,2.638022109531078,replay_benchmark.py; hashes in replay/manifest.json
+Random_n40_21,40,2442,2442,500,133,26.6,2.493586712805312,replay_benchmark.py; hashes in replay/manifest.json
+Random_n40_22,40,2542,2542,500,146,29.2,2.527927291394362,replay_benchmark.py; hashes in replay/manifest.json
+Random_n40_23,40,2642,2642,500,138,27.6,2.4973728544053824,replay_benchmark.py; hashes in replay/manifest.json
+Random_n40_24,40,2742,2742,500,148,29.6,2.5545133973765366,replay_benchmark.py; hashes in replay/manifest.json
+Random_n40_25,40,2842,2842,500,129,25.8,2.461878553147828,replay_benchmark.py; hashes in replay/manifest.json
+Random_n40_26,40,2942,2942,500,131,26.2,2.4842134094945605,replay_benchmark.py; hashes in replay/manifest.json
+Random_n40_27,40,3042,3042,500,154,30.8,2.4905965482061267,replay_benchmark.py; hashes in replay/manifest.json
+Random_n40_28,40,3142,3142,500,120,24.0,2.4214202556651205,replay_benchmark.py; hashes in replay/manifest.json
+Random_n40_29,40,3242,3242,500,142,28.4,2.555517116371875,replay_benchmark.py; hashes in replay/manifest.json
+Random_n40_30,40,3342,3342,500,115,23.0,2.47974012110358,replay_benchmark.py; hashes in replay/manifest.json
+Random_n40_31,40,3442,3442,500,139,27.8,2.5287953893905177,replay_benchmark.py; hashes in replay/manifest.json
+Random_n40_32,40,3542,3542,500,128,25.6,2.486315688939256,replay_benchmark.py; hashes in replay/manifest.json
+Random_n40_33,40,3642,3642,500,144,28.8,2.495355581923043,replay_benchmark.py; hashes in replay/manifest.json
+Random_n40_34,40,3742,3742,500,125,25.0,2.5323068797667228,replay_benchmark.py; hashes in replay/manifest.json
+Random_n40_35,40,3842,3842,500,142,28.4,2.5286778517867567,replay_benchmark.py; hashes in replay/manifest.json
+Random_n40_36,40,3942,3942,500,126,25.2,2.5415322471185644,replay_benchmark.py; hashes in replay/manifest.json
+Random_n40_37,40,4042,4042,500,130,26.0,2.4537414181839026,replay_benchmark.py; hashes in replay/manifest.json
+Random_n40_38,40,4142,4142,500,135,27.0,2.4588004161670836,replay_benchmark.py; hashes in replay/manifest.json
+Random_n40_39,40,4242,4242,500,123,24.6,2.5333340739499968,replay_benchmark.py; hashes in replay/manifest.json
+Random_n40_40,40,4342,4342,500,133,26.6,2.602763070241301,replay_benchmark.py; hashes in replay/manifest.json
+Random_n40_41,40,4442,4442,500,123,24.6,2.5239767422142223,replay_benchmark.py; hashes in replay/manifest.json
+Random_n40_42,40,4542,4542,500,137,27.4,2.5495925930291876,replay_benchmark.py; hashes in replay/manifest.json
+Random_n40_43,40,4642,4642,500,150,30.0,2.5028408581570902,replay_benchmark.py; hashes in replay/manifest.json
+Random_n40_44,40,4742,4742,500,152,30.4,2.5106133665681227,replay_benchmark.py; hashes in replay/manifest.json
+Random_n40_45,40,4842,4842,500,131,26.2,2.4536857787812574,replay_benchmark.py; hashes in replay/manifest.json
+Random_n40_46,40,4942,4942,500,133,26.6,2.405466722910227,replay_benchmark.py; hashes in replay/manifest.json
+Random_n40_47,40,5042,5042,500,138,27.6,2.6090972110059196,replay_benchmark.py; hashes in replay/manifest.json
+Random_n40_48,40,5142,5142,500,133,26.6,2.4967053424934296,replay_benchmark.py; hashes in replay/manifest.json
+Random_n40_49,40,5242,5242,500,143,28.6,2.489887827624927,replay_benchmark.py; hashes in replay/manifest.json
+Random_n40_50,40,5342,5342,500,139,27.8,2.3888835478427755,replay_benchmark.py; hashes in replay/manifest.json
+Random_n40_51,40,5442,5442,500,132,26.4,2.436701977294853,replay_benchmark.py; hashes in replay/manifest.json
+Random_n40_52,40,5542,5542,500,135,27.0,2.450101488892373,replay_benchmark.py; hashes in replay/manifest.json
+Random_n40_53,40,5642,5642,500,131,26.2,2.4510732088287748,replay_benchmark.py; hashes in replay/manifest.json
+Random_n40_54,40,5742,5742,500,114,22.8,2.417897551222854,replay_benchmark.py; hashes in replay/manifest.json
+Random_n40_55,40,5842,5842,500,136,27.2,2.472306432155444,replay_benchmark.py; hashes in replay/manifest.json
+Random_n40_56,40,5942,5942,500,137,27.4,2.5932960945720582,replay_benchmark.py; hashes in replay/manifest.json
+Random_n40_57,40,6042,6042,500,124,24.8,2.53847084779712,replay_benchmark.py; hashes in replay/manifest.json
+Random_n40_58,40,6142,6142,500,121,24.2,2.406217643498193,replay_benchmark.py; hashes in replay/manifest.json
+Random_n40_59,40,6242,6242,500,134,26.8,2.543593907020947,replay_benchmark.py; hashes in replay/manifest.json
+Random_n40_60,40,6342,6342,500,130,26.0,2.4697135585254832,replay_benchmark.py; hashes in replay/manifest.json

@@ -93,12 +93,13 @@ def _paired_records(
             if first not in pivot or second not in pivot:
                 raise ValueError(f"Missing data for {label} at n={size}")
             paired = pivot[[first, second]].dropna()
-            differences = (paired[first] - paired[second]).to_numpy(dtype=float) * (100.0 / trials)
+            count_differences = (paired[first] - paired[second]).to_numpy(dtype=int)
+            differences = count_differences * (100.0 / trials)
             low, high = _bootstrap_interval(differences)
             p_value = (
                 1.0
                 if np.all(differences == 0)
-                else float(stats.wilcoxon(differences, zero_method="wilcox").pvalue)
+                else float(stats.wilcoxon(count_differences, zero_method="wilcox").pvalue)
             )
             raw_p_values.append(p_value)
             contrast_rows.append(
@@ -300,8 +301,6 @@ def _table_2() -> list[str]:
     )
     data["mean_rate_%"] = (data["mean_accepted"] / 5.0).round(2)
     data["sd_rate_%"] = (data["sd_accepted"] / 5.0).round(2)
-    data["mean_accepted"] = data["mean_accepted"].round(2)
-    data["sd_accepted"] = data["sd_accepted"].round(2)
     lines = []
     for _, row in data.iterrows():
         lines.append(
@@ -422,10 +421,6 @@ def _table_5() -> list[str]:
     for name, macro in algorithm_names:
         values = summary[summary["Algorithm"] == name].set_index("Graph Size").loc[SIZES, "Mean_Initial_Fitness"]
         rendered = [_format_number(value, 3) for value in values]
-        # The finalized manuscript reports this value as 0.514.  Preserve the
-        # accepted presentation while the README records the underlying mean.
-        if name == "Uniform-Matched-InitOnly":
-            rendered[1] = "0.514"
         lines.append(macro + " & " + " & ".join(rendered) + r" \\")
     lines += [r"\midrule", r"\multicolumn{7}{@{}l}{\textit{Final success rate (\%)}} \\"]
     final_names = [("Standard-GA", r"\StandardGA{}"), *algorithm_names]

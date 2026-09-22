@@ -1,10 +1,10 @@
 # Numerical artifact package
 
-This repository contains the minimal code and archived data needed to reproduce the numerical figures and tables in *Bipartite Gaussian Boson Sampling for Hamiltonian Cycles in Directed Graphs* (arXiv:2606.28775). The files described below are located directly in the repository root. The public entry points are `Figure-01.py` through `Figure-09.py` and `Table-01.py` through `Table-08.py`; their numbers match the displayed artifact numbers in the manuscript.
+This package contains the code, retained records, and explicitly identified static figures supporting the numerical figures and tables in *Bipartite Gaussian Boson Sampling for Hamiltonian Cycles in Directed Graphs* (arXiv:2606.28775). The files described below are located directly in the repository root. The public entry points are `Figure-01.py` through `Figure-09.py` and `Table-01.py` through `Table-08.py`; their numbers match the displayed artifact numbers in the manuscript.
 
 ## Reproduce all reported artifacts
 
-Use Python 3.11 or newer:
+The verified replay uses Python 3.13.14 on Windows with the package versions pinned in `requirements.txt`. Other compatible environments may support saved-data analysis, but exact seeded trajectories are tied to the recorded runtime:
 
 ```bash
 python -m venv .venv
@@ -54,18 +54,95 @@ The manuscript source retains two historical PDF filenames: displayed Fig. 5 inc
 
 `validate_saved_data.py` checks the data before artifact generation. It verifies:
 
-- 60 shared graphs and 10 trials per graph, algorithm, and size in the main benchmark;
+- 60 shared graphs and 10 trials per graph, algorithm, and size in the main benchmark, with verified replay source, bank, and output hashes;
 - 500 raw shots per graph and the accepted subset banks used in Tab. II;
 - the eight paired comparisons, bootstrap intervals, Wilcoxon tests, and Holm corrections used in Tabs. III, VI, and VIII;
 - the raw matched control banks and trials used in Tab. V, including the outcome-independent selection of density dose `m=4`;
 - all 960 saved output loss records and the covariance construction used by the loss runner;
 - Python syntax, the complete set of numbered entry points, and explicit failure when a quantum backend is unavailable.
 
-The generated validation report includes SHA-256 hashes for every primary input. No derived statistical CSV or LaTeX file is stored in the source tree; the numbered scripts recompute these quantities from the retained records.
+The generated validation report includes SHA-256 hashes for every primary input. The workflow writes derived statistical CSV and LaTeX files to `generated/`. The final-success matched-control and initial-population analyses are exported separately. `loss_tail_check.py` writes the ideal-state truncation bounds. All are regenerated from the retained records or specified analytic model.
 
-Tab. V contains one presentation-level exception. The archived mean initial valid-edge fraction for `Uniform-Matched-InitOnly` at `n=20` is `0.5134816667`, while the finalized manuscript reports `0.514`. `Table-05.py` preserves the finalized displayed value. This difference of `0.0005183` does not affect any inference.
+Table V is rounded directly from the archived observations; there are no manual value overrides. Paired final-success ranks use integer success-count differences, preserving ties, as recommended by the [SciPy Wilcoxon numerical-precision documentation](https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.wilcoxon.html). Table II is rounded once from the unrounded summary statistics.
 
 Figs. 1 and 3 are author-designed schematics. The point-level ensembles for Fig. 2 and the plotted records for Figs. 8 and 9 were not retained. Their numbered entry points therefore copy the accepted vector PDFs from `static/`; the repository does not claim that those three plots can be regenerated point for point. The experiment implementations for the component and multistage sensitivity scans remain available for independent reruns.
+
+## Documented replacement main benchmark
+
+The main and ablation outcomes were replaced by a replay of all 11 displayed
+algorithms on the original 360 graphs, with 10 trials each (39,600 searches).
+The historical quantum accepted subsets are reused without new quantum photon
+sampling. The source-resolved control is regenerated from its graph seeds in
+the recorded environment, and its raw counts and accepted subsets are retained.
+All searches use the unchanged classes in `main_benchmark.py` and zero defaults.
+The replay canonicalizes subset construction from sorted vertex lists before
+building guidance, so input-set serialization does not affect seeded trajectories.
+This preserves subset contents and sampling choices; it does not change the
+fitness, mutation, or population/generation budgets.
+
+`replay/manifest.json` records source hashes, input-bank hash, runtime versions,
+configuration, and graph/trial seed formulas. `replay/completed.json` records the
+output hashes. Per-graph JSON checkpoints retain graph edges, source subsets,
+trial outcomes, returned cycles/paths, and the actual multistage insertion order.
+Compressed NumPy files retain the 500 raw source-resolved shots per graph.
+`replay/trial_records.csv.gz` is the combined trial archive. The canonical main
+workbook contains the nine original displayed arms (32,400 rows), and
+`sr_control_results.csv` contains the two source-control arms (7,200 rows).
+The unused historical distinguishable-particle arm is not part of this replay.
+
+Run the full search replay with:
+
+```bash
+python replay_benchmark.py --workers 32
+python reproduce_all.py
+python verify_replay.py
+```
+
+Matching checkpoints resume a run; a changed configuration or source hash is
+rejected. Keep an archival copy before a completely fresh full run and set aside
+its `replay/` folder. The full runner replaces canonical outcome files only when
+all graph tasks finish. For a small independent pilot that leaves canonical files
+alone, use `--sizes 20 --graphs 1 --trials 1 --output-dir pilot`.
+
+`verify_replay.py` validates all saved Hamiltonian-cycle certificates and source
+postselection records, then executes selected full-budget searches and selected
+matched-control trials. It verifies stored-list reinforcement behavior and the
+integer-rank correction. It also cross-checks all 39,600 checkpoint outcomes against the analysis inputs, verifies seed formulas and recorded insertion orders, and writes ordered per-graph bank hashes to `generated/provenance_audit.json`. This does not certify the historical quantum sampling
+distribution. In particular, the original quantum raw mode counts and optical
+environment remain unavailable.
+
+The matched-density experiment is separate: all guidance sources, including
+BipartiteGBS-InitOnly, were searched under its own shared 30-seed policy. Its trial
+records are retained, with corrected rank tests; they are not historical main
+outcomes relabeled as controls. The historical fitness-weight scan and loss study
+also remain separate experiments, with their recorded limitations.
+
+## Multistage ordering and loss-tail scope
+
+The stored top-edge list initially follows `Counter.most_common`, with ties in
+first-occurrence bank/vertex-pair traversal order. Reinforcement raises scores to
+at least 0.8, leaves existing list positions unchanged, and prepends only absent
+edges in the actual Python set iteration order. The replay records that order;
+repeated prepending reverses the visit order of inserted edges. Initialization
+uses only the first n entries and does not re-sort. The manuscript pseudocode
+now describes this behavior.
+
+`loss_tail_check.py` computes the ideal lossless total-photon tail above 30 from
+the convolution of geometric source-pair distributions, and a thermal-marginal
+union bound for any output mode reaching occupation eight. Its CSV lists all 60
+loss-study graphs. These bounds do not validate an unknown historical backend or
+bound errors after conditioning on postselection. Historical raw loss banks were
+not retained; the retained graph summaries support the loss reanalysis.
+
+## Archive identity and public status
+
+The historical public snapshot is commit
+`97f224e84ad875482c8cbec7938ce9a79cbd1b8a` of the linked GitHub repository.
+This in-place revised package contains newer replay and correction files; that
+historical commit is not a claim that the new package has already been uploaded.
+`revision-manifest.json` identifies this package's source and numerical payload
+by SHA-256. The manuscript distinguishes the historical public snapshot from
+the revised package accompanying the submission.
 
 ## Repository layout
 
@@ -104,7 +181,8 @@ The experiment implementations are:
 
 | Experiment | Script | Primary output |
 |---|---|---|
-| Main benchmark and accepted BipartiteGBS banks | `main_benchmark.py` | `experiment_results.xlsx`, `gbs_sampling_data.xlsx` |
+| New optical experiment (not the revised benchmark replay) | `main_benchmark.py` | `experiment_results.xlsx`, `gbs_sampling_data.xlsx` |
+| Revised main/ablation search replay | `replay_benchmark.py` | main workbook, source-control CSVs, `replay/` |
 | Fitness weight scan | `fitness_weight_scan.py` | `alpha_sensitivity_results.xlsx` |
 | Source-resolved controls | `source_resolved_control.py` | `sr_control_results.csv`, `sr_control_sampling.csv` |
 | Matched density-dose controls | `matched_density_controls.py` | `matched_control_data/` |
@@ -113,7 +191,7 @@ The experiment implementations are:
 | Multistage sensitivity | `multistage_sensitivity.py` | sensitivity plot |
 | Unobserved-edge convention | `unobserved_edge_check.py` | `default_check_results.csv` |
 
-The original package versions used for the historical simulations were not recorded. A fresh experiment rerun is scientifically comparable but is not guaranteed to reproduce identical random streams across third-party sampler versions. Keep rerun outputs separate from the archived inputs until they have been checked.
+The original optical package versions used for the historical simulations were not recorded. They are not reconstructed by the replacement classical search replay. A fresh experiment rerun is scientifically comparable but is not guaranteed to reproduce identical random streams across third-party sampler versions. Keep rerun outputs separate from the archived inputs until they have been checked.
 
 ## License
 

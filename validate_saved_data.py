@@ -43,6 +43,9 @@ PRIMARY_INPUTS = [
     "matched_control_data/density_dose_banks.csv.gz",
     "matched_control_data/density_dose_results.csv.gz",
     "matched_control_data/density_dose_metadata.json",
+    "replay/manifest.json",
+    "replay/completed.json",
+    "replay/trial_records.csv.gz",
 ]
 
 
@@ -55,6 +58,13 @@ def _sha256(path: Path) -> str:
 
 
 def _validate_main_records(report: dict) -> None:
+    manifest = json.loads((HERE / "replay/manifest.json").read_text())
+    completion = json.loads((HERE / "replay/completed.json").read_text())
+    for filename, expected in manifest["source_sha256"].items():
+        assert _sha256(HERE / filename) == expected, f"Replay source changed: {filename}"
+    assert _sha256(HERE / "gbs_sampling_data.xlsx") == manifest["bank_sha256"]
+    for filename, expected in completion["output_sha256"].items():
+        assert _sha256(HERE / filename) == expected, f"Replay output changed: {filename}"
     quantum = pd.read_excel(HERE / "experiment_results.xlsx", sheet_name="Raw Data")
     classical = pd.read_csv(HERE / "sr_control_results.csv")
     combined = pd.concat([quantum, classical], ignore_index=True)
@@ -62,6 +72,8 @@ def _validate_main_records(report: dict) -> None:
     assert counts.eq(10).all()
     graph_counts = combined.groupby(["Graph Size", "Algorithm"])["Graph Name"].nunique()
     assert graph_counts.eq(60).all()
+    assert len(combined) == completion["rows"] == 39600
+    assert combined.groupby(["Graph Name", "Trial"])["Trial Seed"].nunique().eq(1).all()
     paired = _paired_statistics()
     assert len(paired) == 48
     assert paired.groupby("contrast").size().eq(6).all()
@@ -69,6 +81,7 @@ def _validate_main_records(report: dict) -> None:
         "quantum_and_original_rows": len(quantum),
         "source_resolved_rows": len(classical),
         "paired_comparisons": int(paired["contrast"].nunique()),
+        "provenance": "replay/manifest.json; source, bank, and output hashes verified",
     }
 
 

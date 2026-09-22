@@ -21,7 +21,9 @@ It runs two methods on the saved benchmark graphs:
   * SourceResolved-GA     : single-stage GBSEnhancedGenetic  fed source-resolved info
   * MS-SourceResolved-GA  : MultiStageGBSEnhancedGenetic     fed source-resolved info
 
-The quantum side (GBS-Genetic, MultiStageGBS) is reused from experiment_results.xlsx.
+This is the retained standalone control runner. The revised manuscript's paired
+main outcomes are generated jointly by replay_benchmark.py, not by this script.
+The original control analysis reused the quantum side from experiment_results.xlsx.
 Downstream operators / hyperparameters are identical to the quantum methods:
   single : pop 100, 200 gens, alpha=0.1, beta=0.2
   multi  : pop 100, 300 gens (stage1 50/100, stage2 100/150), reinforcement 0.8

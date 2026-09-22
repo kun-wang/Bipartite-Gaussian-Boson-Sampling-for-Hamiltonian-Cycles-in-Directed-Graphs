@@ -1,0 +1,45 @@
+{
+  "abstract_byte_identical": true,
+  "abstract_sha256": "c657b279c0954e1dec98ecd270ce6ea93db9ee5af3d68f43b9ce480df777cfab",
+  "tables_matched_to_generated_records": [
+    2,
+    3,
+    5,
+    8
+  ],
+  "documents_compiled": [
+    "revised-manuscript",
+    "rebuttal",
+    "difference"
+  ],
+  "difference_baseline": "PRA/v1/manuscript.tex; entire replacement bibliography colored blue",
+  "public_repository_updated": false,
+  "new_search_trials": 39600,
+  "verification": {
+    "validated_hamiltonian_cycles": 26293,
+    "source_banks_checked": 360,
+    "fresh_replay_trials": 18,
+    "fresh_matched_trials": 24,
+    "matched_tie_correction_p": 0.1018398897516955,
+    "reinforcement_order": "stored-list behavior verified",
+    "scope": "Full saved-record certificates plus selected fresh trials; no certification of historical quantum sampling"
+  },
+  "loss_tail_check": {
+    "assumptions": "Ideal lossless bipartite Gaussian state; eta=0.75; n=20,30; first 30 graph seeds; total photons=2*total pairs; cutoff 8 excludes occupations >=8",
+    "scope": "Ideal-state omitted mass only, not historical backend or conditional sampler validation",
+    "graphs": 60,
+    "total_tail_min": 0.00021763227088400505,
+    "total_tail_max": 0.000320906276630728,
+    "mode_union_bound_max": 2.4938094364004004e-05
+  },
+  "replay_records_recovered_from": "PRA/v2-before-recovery-20260922-174141/codes/replay",
+  "submitted_snapshot_backup": "tmp/submitted-v2-20260922-180023.zip",
+  "core_search_code_byte_identical_to_submitted_v2": true,
+  "current_verification": {
+    "fresh_selected_searches": 42,
+    "checkpoint_rows_cross_checked": 39600,
+    "ordered_banks_identified": 720,
+    "pdf_pages_visually_reviewed": 85,
+    "provenance_report": "generated/provenance_audit.json"
+  }
+}

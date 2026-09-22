@@ -1,0 +1,52 @@
+{
+  "sizes": [
+    15,
+    20,
+    25,
+    30,
+    35,
+    40
+  ],
+  "graphs_per_size": 60,
+  "trials": 10,
+  "edge_probability": 0.3,
+  "unobserved_edge_default": 0.0,
+  "population": 100,
+  "single_generations": 200,
+  "multistage_generations": [
+    100,
+    150
+  ],
+  "stage_populations": [
+    50,
+    100
+  ],
+  "alpha_max": 0.1,
+  "beta": 0.2,
+  "crossover_rate": 0.8,
+  "mutation_rate": 0.1,
+  "reinforcement_floor": 0.8,
+  "raw_shots": 500,
+  "graph_seed": "42 + index*100 + n*10 (index is zero-based)",
+  "trial_seed": "20260922 + n*1000000 + index*1000 + trial (zero-based)",
+  "source_sampler_seed": "graph_seed",
+  "top_edges": "Counter.most_common, stable first-occurrence ties; stored list retained; missing reinforced edges prepended in recorded Python set iteration order",
+  "subset_construction": "Sorted vertex lists passed to guidance_from_bank, which constructs fresh sets; independent of input set pickle history",
+  "quantum_sampling": "Retained accepted subsets; original optical environment unknown; no new quantum shots",
+  "python": "3.13.14",
+  "platform": "Windows-11-10.0.28000-SP0",
+  "packages": {
+    "numpy": "2.4.6",
+    "pandas": "3.0.5",
+    "scipy": "1.18.0",
+    "matplotlib": "3.11.1",
+    "openpyxl": "3.1.5"
+  },
+  "source_sha256": {
+    "main_benchmark.py": "24f35d601a5bb013b96f7a9ef888a5cdcc8d84e472f916fd4731605964041bda",
+    "matched_control_utils.py": "446521357f2ec4bb79379c140082b656af91c61707f93947494165850faeec11",
+    "source_resolved.py": "c6a109af83e5bf204e8269d3384b483984ee0fbef081f96e444b5366d09d3693",
+    "replay_benchmark.py": "f6f355aa9b83ad902c02d5533db24ba20a5024426d388e261e61e73c0609dbcf"
+  },
+  "bank_sha256": "bb4f93a2510f5780573c1750b6689ddf06440f80077272663a81768303b8702a"
+}

@@ -1,0 +1,10 @@
+{
+  "rows": 39600,
+  "seconds": 189.84749841690063,
+  "output_sha256": {
+    "experiment_results.xlsx": "d7bf38757d6475486fed7f190643ccfea3f65f0b754e383cad85fbd2731ad4fd",
+    "sr_control_results.csv": "949cc15a2dcee80c481126e9aa6b5b8d22d330095fbb553ecbf924df8fc0df32",
+    "sr_control_sampling.csv": "46a4a49f1f0cbc128d8ce1a53cdfc91af5b0fbc2bebfd353544b2354f7bf7dfc",
+    "replay/trial_records.csv.gz": "789eec2b397eb8f95431208ecd8a0abdc583a047490f8d7653c961c942ffbb9f"
+  }
+}

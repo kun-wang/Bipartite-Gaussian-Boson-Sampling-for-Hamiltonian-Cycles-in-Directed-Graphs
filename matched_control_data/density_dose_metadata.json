@@ -1,0 +1,38 @@
+{
+  "description": "Outcome-blind matched density-dose controls",
+  "config": {
+    "sizes": [
+      15,
+      20,
+      25,
+      30,
+      35,
+      40
+    ],
+    "graphs_per_size": 60,
+    "trials": 10,
+    "bank_replicates": 3,
+    "doses": [
+      1,
+      2,
+      4,
+      8,
+      16
+    ],
+    "population": 100,
+    "generations": 200,
+    "crossover_rate": 0.8,
+    "mutation_rate": 0.1,
+    "beta": 0.2,
+    "bootstrap_resamples": 20000
+  },
+  "selected_calibrated_dose": 4,
+  "selection_rule": "pooled bank density closest to BipartiteGBS; outcomes unused",
+  "sampling_workbook": "gbs_sampling_data.xlsx",
+  "sampling_workbook_sha256": "bb4f93a2510f5780573c1750b6689ddf06440f80077272663a81768303b8702a",
+  "runner": "matched_density_controls.py",
+  "rows": {
+    "results": 75600,
+    "banks": 545922
+  }
+}
